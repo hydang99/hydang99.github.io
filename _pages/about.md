@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+I am a first-year Ph.D student in Computer Science and Engineering at [University of Notre Dame](https://www.nd.edu/). My research interests lie in the fields of Natural Language Processing, Data Mining and Medical Perspectives.
 My name is Hy (Gia) Dang (Full name in Vietnamese: Đặng Gia Hy), and I am an undergraduate with double degrees in Computer Science and Mathematics at Texas Christian University. 
 My research interests involve artificial intelligence, machine learning, optimization algorithms, PDE, applied mathematics in health. 
 I was born in Da Nang city, Vietnam (a beautiful place!) 
