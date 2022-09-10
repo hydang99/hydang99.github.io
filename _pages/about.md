@@ -1,14 +1,22 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+My name is Hy (Gia) Dang (Full name in Vietnamese: Đặng Gia Hy), and I am an undergraduate with double degrees in Computer Science and Mathematics at Texas Christian University. 
+My research interests involve artificial intelligence, machine learning, optimization algorithms, PDE, applied mathematics in health. 
+I was born in Da Nang city, Vietnam (a beautiful place!) 
+With a double degree in Computer Science and Mathematics, I feel that there is a right combination between these two fields when they can support each other. I value innovation and working with other people where I can learn and expand my knowledge.
+I have experience in working on research projects, and that helps me enhance not only my knowledge but also the way when solving a problem.
+Thomas A. Edison: 
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+"I have not failed. I've just found 10,000 ways that won't work."
+
+<>This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and <>hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored <>in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes <>Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that <>academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository]<>(https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other <>content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com]<>(http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
