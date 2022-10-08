@@ -11,8 +11,7 @@ I am a first-year Ph.D student in Computer Science and Engineering at [Notre Dam
 
 I received double degrees Bachelor of Science in Computer Science and Bachelor of Science in Mathematics from [Texas Christian University](https://www.tcu.edu) in December 2021. 
 
-Thomas A. Edison: 
-"I have not failed. I've just found 10,000 ways that won't work."
+<q>I have not failed. I've just found 10,000 ways that won't work.&#8230;</q> &#8211;Thomas A. Edison
 
 Updates/News
 ======
