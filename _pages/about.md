@@ -20,6 +20,12 @@ Updates/News
 - ![](/icons/education_icon.png) **2021-12-15** I graduated with 4.0 cumulative GPA (Summa Cum Laude) with double degrees (Bachelor of Science in Computer Science and Bachelor of Science in Mathematics) from [Texas Christian University](https://www.tcu.edu)
 
 
+Contact
+------
+- Email: hdang [at] nd [dot] edu
+- Office: 355 Fitzpatrick Hall of Engineering
+- Location: University of Notre Dame, Notre Dame, IN 46565
+
 <!---
 Site-wide configuration
 ------
@@ -45,8 +51,3 @@ For more info
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 --->
-Contact
-------
-- Email: hdang [at] nd [dot] edu
-- Office: 355 Fitzpatrick Hall of Engineering
-- Location: University of Notre Dame, Notre Dame, IN 46565
