@@ -21,7 +21,7 @@ Updates/News
 
 
 Contact
-------
+======
 - Email: hdang [at] nd [dot] edu
 - Office: 355 Fitzpatrick Hall of Engineering
 - Location: University of Notre Dame, Notre Dame, IN 46565
