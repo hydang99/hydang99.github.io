@@ -16,13 +16,9 @@ Thomas A. Edison:
 
 Updates/News
 ======
-- ![](/icons/education_icon.png) **2022-04-15**
+- ![](/icons/education_icon.png) **2022-04-15** Happy to announce that I will join [University of Notre Dame](https://www.nd.edu/) as a PhD student in Computer Science & Engineering starting Fall 2022 underthe supervision of [Prof. Meng Jiang](http://www.meng-jiang.com/). 
 
-Happy to announce that I will join [University of Notre Dame](https://www.nd.edu/) as a PhD student in Computer Science & Engineering starting Fall 2022 underthe supervision of [Prof. Meng Jiang](http://www.meng-jiang.com/). 
-
-- ![](/icons/education_icon.png) **2021-12-15**
-
-I graduated with 4.0 cumulative GPA (Summa Cum Laude) with double degrees (Bachelor of Science in Computer Science and Bachelor of Science in Mathematics) from [Texas Christian University](https://www.tcu.edu)
+- ![](/icons/education_icon.png) **2021-12-15** I graduated with 4.0 cumulative GPA (Summa Cum Laude) with double degrees (Bachelor of Science in Computer Science and Bachelor of Science in Mathematics) from [Texas Christian University](https://www.tcu.edu)
 
 
 Getting started
