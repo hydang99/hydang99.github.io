@@ -16,7 +16,7 @@ Thomas A. Edison:
 
 Updates/News
 ======
-- ![alt text]("icons/education_icon.png") 2022-04-15
+- ![alt text]("/icons/education_icon.png") 2022-04-15
 Happy to announce that I will join [University of Notre Dame](https://www.nd.edu/) as a PhD student in Computer Science & Engineering starting Fall 2022 underthe supervision of [Prof. Meng Jiang](http://www.meng-jiang.com/). 
 
 
