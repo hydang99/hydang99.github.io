@@ -9,7 +9,7 @@ redirect_from:
 ---
 I am a first-year Ph.D student in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/) under the supervision of [DM2 Lab](http://www.meng-jiang.com/lab.html) directed by [Prof. Meng Jiang](http://www.meng-jiang.com/). My research interests lie in the fields of Natural Language Processing, Data Mining.
 
-I received double degrees Bachelor of Science in Computer Science and Bachelor of Science in Mathematics from [Texas Christian University](https://www.tcu.edu) in December 2021. 
+{: .notice} I received double degrees Bachelor of Science in Computer Science and Bachelor of Science in Mathematics from [Texas Christian University](https://www.tcu.edu) in December 2021. 
 
 Thomas A. Edison: 
 "I have not failed. I've just found 10,000 ways that won't work."
@@ -19,7 +19,7 @@ Updates/News
 - ![](/icons/education_icon.png) 2022-04-15
 Happy to announce that I will join [University of Notre Dame](https://www.nd.edu/) as a PhD student in Computer Science & Engineering starting Fall 2022 underthe supervision of [Prof. Meng Jiang](http://www.meng-jiang.com/). 
 
-- 2021-12-15
+- ![](/icons/education_icon.png) 2021-12-15
 I graduated with 4.0 cummulative GPA (Summa Cum Laude) with double degrees (Bachelor of Science in Computer Science and Bachelor of Science in Mathematics) from [Texas Christian University](https://www.tcu.edu)
 
 
