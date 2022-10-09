@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Texas Christian University, 2021
+* B.S. in Mathematics, Texas Christian University University, 2021
+* Ph.D in Computer Science and Engineering, University of Notre Dame, 2022 - Present
 
 Work experience
 ======
