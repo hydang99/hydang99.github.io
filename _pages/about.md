@@ -13,6 +13,8 @@ I received double degrees Bachelor of Science in Computer Science and Bachelor o
 
 <q>I have not failed. I've just found 10,000 ways that won't work.&#8230;</q> &#8211;Thomas A. Edison
 
+I’m best reached via email. I’m always open to interesting conversations and collaboration.
+
 Updates/News
 ======
 - ![](/icons/education_icon.png) **2022-04-15** Happy to announce that I will join [University of Notre Dame](https://www.nd.edu/) as a PhD student in Computer Science & Engineering starting Fall 2022 under the supervision of [Prof. Meng Jiang](http://www.meng-jiang.com/). 
