@@ -6,8 +6,10 @@ main:
   - title: "Research"
     url: /research/
     
+  - title: "CV"
+    url: /cv/
+    
   - title: "Misc"
     url: /misc/
-    
-  - title: "CV"
-    url: /HyDang_CV.pdf
+
+
