@@ -11,21 +11,26 @@ redirect_from:
 
 Education
 ======
+* Ph.D in Computer Science and Engineering, University of Notre Dame, 2022 - Present
 * B.S. in Computer Science, Texas Christian University, 2021
 * B.S. in Mathematics, Texas Christian University University, 2021
-* Ph.D in Computer Science and Engineering, University of Notre Dame, 2022 - Present
+  * Summa Cum Laude Graduate, Cumulative GPA: 4.0/4.0
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2020: Undergraduate Research
+  * Cornell University - REU/SPUR Program
+  * Project: Tagging issues
+  * Supervisor: Professor. Andy Borum
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Nov 2020 - Feb 2021: Research Scientist Intern (Natural Language Processing)
+* Aug 2020 - Nov 2020: Data Science Intern
+  * Knorex Pte. Ltd
+  * Supervisor: Mr. Phu Le
+
+* June 2019 - August 2019: Machine Learning Intern
+  * FPT Software
+  * Supervisor: Mr. Hoang Nguyen
   
 Skills
 ======
