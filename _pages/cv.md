@@ -41,6 +41,7 @@ Work experience
 * Housing price prediction via improved machine learning techniques <br/>
   Q. Truong, M. Nguyen, **H. Dang**, B. Mei <br/>
   Precedia Computer Science 174, 433-442<br/>
+
 **Posters/Presentations**
 * Wound Healing Modeling Using Partial Differential Equations And Deep Learning <br/>
   **H. Dang** <br/>
@@ -57,6 +58,7 @@ Work experience
 * Bifurcations of an elastic ring with interacting particles <br/>
   **H. Dang**, L. Mantilla, S. Zhang, A. Borum <br/>
   Student Talk/Poster Session Presentation at the Canadian Undergraduate Mathematics Conference (CUMC 2020) <br/>
+  
 **Preprints**
 * Wound Healing Modeling Using Partial Differential Equations And Deep Learning <br/>
   **H. Dang** <br/>
