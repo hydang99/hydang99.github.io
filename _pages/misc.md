@@ -7,8 +7,9 @@ author_profile: true
 
 {% include base_path %}
 I am from [Da Nang, Viet Nam](https://www.google.com/maps/place/Da+Nang,+Vietnam/data=!4m2!3m1!1s0x314219c792252a13:0x1df0cb4b86727e06?sa=X&ved=2ahUKEwjVirLVuLz7AhXGg2oFHYfnDvgQ8gF6BAhrEAE) (my hometown!), which is a famous city for tourism! <br/>
+
 Personal Projects - Outside of Research
-------
+======
 I have a passion for surrounding, especially involving exciting projects. Below activities are some projects and activities that I engaged in and (am proud of). Please feel free to contact me if you want to work or share with me interesting ideas to support the communities!
 
 
