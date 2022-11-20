@@ -32,8 +32,7 @@ Work experience
   * FPT Software
   * Supervisor: Mr. Hoang Nguyen
 
-Publications
-======
+# Publications
 ## Papers
 * StTime-Net: Combining both Historical and Textual Factos for Stock Movement Prediction <br/>
   **H. Dang**, M. Nguyen, B. Mei <br/>
