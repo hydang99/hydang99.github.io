@@ -13,8 +13,7 @@ Education
 ======
 * Ph.D in Computer Science and Engineering, University of Notre Dame
   * 2022 - Present
-* B.S. in Computer Science, Texas Christian University
-* B.S. in Mathematics, Texas Christian University University
+* B.S. in Computer Science & B.S. in Mathematics, Texas Christian University
   * 2017 - December 2021
   * Summa Cum Laude Graduate, Cumulative GPA: 4.0/4.0
 
@@ -35,17 +34,14 @@ Work experience
 
 Publications
 ======
-
 Papers
 ------
-
 * StTime-Net: Combining both Historical and Textual Factos for Stock Movement Prediction <br/>
   **H. Dang**, M. Nguyen, B. Mei <br/>
   International Conference on Artificial Neural Networks (ICANN 2022), 273-284 <br/>
 * Housing price prediction via improved machine learning techniques <br/>
   Q. Truong, M. Nguyen, **H. Dang**, B. Mei <br/>
-  Precedia Computer Science 174, 433-442 <br/>
-
+  Precedia Computer Science 174, 433-442
 Posters/Presentations
 ------
 * Wound Healing Modeling Using Partial Differential Equations And Deep Learning <br/>
@@ -62,10 +58,9 @@ Posters/Presentations
 
 * Bifurcations of an elastic ring with interacting particles <br/>
   **H. Dang**, L. Mantilla, S. Zhang, A. Borum <br/>
-  Student Talk/Poster Session Presentation at the Canadian Undergraduate Mathematics Conference (CUMC 2020) <br/>
-
+  Student Talk/Poster Session Presentation at the Canadian Undergraduate Mathematics Conference (CUMC 2020)
 Preprints
 ------
 * Wound Healing Modeling Using Partial Differential Equations And Deep Learning <br/>
   **H. Dang** <br/>
-  [[arXiv](https://arxiv.org/abs/2111.15632)] <br/>
+  [[arXiv](https://arxiv.org/abs/2111.15632)]
