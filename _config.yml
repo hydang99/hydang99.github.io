@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hy Dang"
+title                    : "Hy Dang's Homepage"
 title_separator          : "-"
 name                     : &name "Hy Dang"
 description              : &description "PhD student at University of Notre Dame"
