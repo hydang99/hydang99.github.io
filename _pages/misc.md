@@ -8,8 +8,8 @@ author_profile: true
 {% include base_path %}
 
 Personal Projects - Outside of Research
-======
-I have a passion with surrounding. I like to travel around the world, work on on-site experiments.
+------
+I have a passion with surrounding, especially involving interesting projects. Below activities are some projects and activities that I involved in and (proud of).
 
 
 - **2020** Study Abroad, South Africa: [TCU Rhino Initiative](https://environment.tcu.edu/research-initiatives/rhino-conservation-in-south-africa/)
