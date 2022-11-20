@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
+The PDF version of [CV](/HyDang_CV.pdf)
 {% include base_path %}
 
 Education
@@ -41,16 +41,16 @@ Papers
 
 * StTime-Net: Combining both Historical and Textual Factos for Stock Movement Prediction
   **H. Dang**, M. Nguyen, B. Mei
-  International Conference on Artificial Neural Networks (ICANN 2022), 273-284
+International Conference on Artificial Neural Networks (ICANN 2022), 273-284
 * Housing price prediction via improved machine learning techniques
-Q. Truong, M. Nguyen, **H. Dang**, B. Mei
+  Q. Truong, M. Nguyen, **H. Dang**, B. Mei
   Precedia Computer Science 174, 433-442
 
 Posters/Presentations
 ------
 * Wound Healing Modeling Using Partial Differential Equations And Deep Learning
-  **H. Dang**
-  Student Talk at the Sixteenth Annual Texas Undergraduate Mathematics Conference (TUMC 2021)
+    **H. Dang**
+    Student Talk at the Sixteenth Annual Texas Undergraduate Mathematics Conference (TUMC 2021)
 
 * Modeling Wound Healing Using Deep Learning 
   **H. Dang**
