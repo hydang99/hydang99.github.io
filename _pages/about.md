@@ -13,7 +13,7 @@ I received double degrees Bachelor of Science in Computer Science and Bachelor o
 
 <q>I have not failed. I've just found 10,000 ways that won't work.&#8230;</q> &#8211;Thomas A. Edison
 
-I’m best reached via email. I’m always open to interesting conversations and collaboration.
+
 
 Updates/News
 ======
@@ -24,6 +24,7 @@ Updates/News
 
 Contact
 ======
+I’m best reached via email. I’m always open to interesting conversations and collaboration.
 - Email: hdang [at] nd [dot] edu
 - Office: 355 Fitzpatrick Hall of Engineering
 - Location: University of Notre Dame, Notre Dame, IN 46565
