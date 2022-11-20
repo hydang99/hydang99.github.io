@@ -20,8 +20,6 @@ Education
 
 Work experience
 ======
-
-
 * Nov 2020 - Feb 2021: Research Scientist Intern (Natural Language Processing)
 * Aug 2020 - Nov 2020: Data Science Intern
   * Knorex Pte. Ltd
