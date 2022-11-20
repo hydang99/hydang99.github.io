@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-The PDF version of [CV](/HyDang_CV.pdf)
+The PDF version of [CV](/cv/HyDang_CV.pdf)
 {% include base_path %}
 
 Education
