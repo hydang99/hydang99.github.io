@@ -58,7 +58,7 @@ Posters/Presentations
 
 * Bifurcations of an elastic ring with interacting particles
   **H. Dang**, L. Mantilla, S. Zhang, A. Borum
-  Student Talk/Poster Session Presentation at the Canadiam Undergraduate Mathematics Conference (CUMC 2020)
+  Student Talk/Poster Session Presentation at the Canadian Undergraduate Mathematics Conference (CUMC 2020)
 
 Preprints
 ------
