@@ -33,3 +33,35 @@ Work experience
   * FPT Software
   * Supervisor: Mr. Hoang Nguyen
 
+Publications
+======
+
+Papers
+------
+
+* StTime-Net: Combining both Historical and Textual Factos for Stock Movement Prediction
+**H. Dang**, M. Nguyen, B. Mei
+International Conference on Artificial Neural Networks (ICANN 2022), 273-284
+* Housing price prediction via improved machine learning techniques
+Q. Truong, M. Nguyen, **H. Dang**, B. Mei
+Precedia Computer Science 174, 433-442
+
+Posters/Presentations
+------
+* Wound Healing Modeling Using Partial Differential Equations And Deep Learning
+**H. Dang**
+Student Talk at the Sixteenth Annual Texas Undergraduate Mathematics Conference (TUMC 2021)
+
+* Modeling Wound Healing Using Deep Learning 
+**H. Dang**
+Poster Presentation at the 3rd Annual Meeting of the SIAM Texas-Louisiana Section. (2020)
+
+* Bifurcations of an elastic ring with interacting particles
+**H. Dang**, L. Mantilla, S. Zhang, A. Borum
+Student Talk/Poster Session Presentation at the Canadiam Undergraduate Mathematics Conference (CUMC 2020)
+
+Preprints
+------
+* Wound Healing Modeling Using Partial Differential Equations And Deep Learning
+**H. Dang**
+[[arXiv](https://arxiv.org/abs/2111.15632)]
