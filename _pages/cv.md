@@ -50,6 +50,10 @@ Posters/Presentations
 ------
 * Wound Healing Modeling Using Partial Differential Equations And Deep Learning
     **H. Dang**
+    Presentation at National Collegiate Research Conference, Harvard University (NCRC 2022)
+
+* Wound Healing Modeling Using Partial Differential Equations And Deep Learning
+    **H. Dang**
     Student Talk at the Sixteenth Annual Texas Undergraduate Mathematics Conference (TUMC 2021)
 
 * Modeling Wound Healing Using Deep Learning 
