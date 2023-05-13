@@ -6,8 +6,16 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-The PDF version of [CV](http://hydang99.github.io/HyDang_CV.pdf)
-{% include base_path %}
+<!-- The PDF version of [CV](http://hydang99.github.io/HyDang_CV.pdf)
+{% include base_path %} -->
+Research Interests
+======
+I am primarily focused on Natural Language Processing, Data Mining, and Machine
+Learning. I have an interest in addressing the challenges posed by information sparsity
+in textual data. Specifically, my recent project centers around augmenting text data
+by incorporating supplementary information to enrich its content. The objective is to
+enhance its relevance and usefulness for downstream applications such as information
+retrieval and text classification.
 
 Education
 ======
@@ -17,7 +25,11 @@ Education
   * 2017 - December 2021
   * Summa Cum Laude Graduate, Cumulative GPA: 4.0/4.0
 
-Work experience
+Research Project
+======
+* Aug 2022 - Present: Knowledge Enhancement for Text Using Expansion Techniques
+
+Industry experience
 ======
 * Nov 2020 - Feb 2021: Research Scientist Intern (Natural Language Processing)
 * Aug 2020 - Nov 2020: Data Science Intern
