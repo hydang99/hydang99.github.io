@@ -17,6 +17,8 @@ I received double degrees Bachelor of Science in Computer Science and Bachelor o
 
 Updates/News
 ======
+- ![](/icons/new.png) **2023-05-30** One paper accepted at [CODI 2023- ACL 2023](https://sites.google.com/view/codi-2023/) - 4th workshop on Computational Approaches to Discourse. 
+
 - ![](/icons/education_icon.png) **2022-04-15** Happy to announce that I will join [University of Notre Dame](https://www.nd.edu/) as a PhD student in Computer Science & Engineering starting Fall 2022 under the supervision of [Prof. Meng Jiang](http://www.meng-jiang.com/). 
 
 - ![](/icons/education_icon.png) **2021-12-15** I graduated with 4.0 cumulative GPA (Summa Cum Laude) with double degrees (Bachelor of Science in Computer Science and Bachelor of Science in Mathematics) from [Texas Christian University](https://www.tcu.edu)

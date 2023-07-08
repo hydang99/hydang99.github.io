@@ -6,8 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<!-- The PDF version of [CV](http://hydang99.github.io/HyDang_CV.pdf)
-{% include base_path %} -->
+The PDF version of [CV](http://hydang99.github.io/HyDang_CV.pdf)
+{% include base_path %}
 Research Interests
 ======
 I am primarily focused on Natural Language Processing, Data Mining, and Machine
@@ -38,7 +38,7 @@ Industry experience
 
 * Summer 2020: Undergraduate Research
   * Cornell University - REU/SPUR Program
-  * Supervisor: Professor. Andy Borum
+  * Supervisor: Dr. Andy Borum
 
 * June 2019 - August 2019: Machine Learning Intern
   * FPT Software
@@ -47,6 +47,9 @@ Industry experience
 # Publications
 
 **Papers**
+* Embedding Mental Health Discourse for Community Recommendation. <br/>
+  **H.Dang\***, B. Nguyen*, N. Ziems, M. Jiang. <br/>
+  4th Workshop on Computational Approaches to Discourse, joint with The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada, 2023.
 * StTime-Net: Combining both Historical and Textual Factos for Stock Movement Prediction <br/>
   **H. Dang**, M. Nguyen, B. Mei <br/>
   International Conference on Artificial Neural Networks (ICANN 2022), 273-284 <br/>
