@@ -48,8 +48,13 @@ Industry experience
 
 **Papers**
 * Embedding Mental Health Discourse for Community Recommendation. <br/>
-  **H.Dang\***, B. Nguyen*, N. Ziems, M. Jiang. <br/>
+  **H.Dang**, B. Nguyen*, N. Ziems, M. Jiang. <br/>
   4th Workshop on Computational Approaches to Discourse, joint with The 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada, 2023.
+
+* A Quantitative Review on Language Model Efficiency Research. <br/>
+  M. Jiang, **H. Dang**, L. Tong. <br/>
+  Large Language Model Symposium in conjunction with International Joint Conference on Artificial Intelligence (IJCAI), 2023.
+  
 * StTime-Net: Combining both Historical and Textual Factos for Stock Movement Prediction <br/>
   **H. Dang**, M. Nguyen, B. Mei <br/>
   International Conference on Artificial Neural Networks (ICANN 2022), 273-284 <br/>
