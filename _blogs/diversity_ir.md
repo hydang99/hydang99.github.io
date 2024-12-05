@@ -1,9 +1,9 @@
 ---
 title: "Redefine “Diversity” in the era of LLMs in Information Retrieval/Recommendations System"
-collection: blogs
-permalink: /blogs/diversity_ir
+permalink: /blogs/diversity_ir/
 date: 2024-06
 ---
+
 ## Table of Contents
 - [1. Diversity in improving search result diversification](#1-diversity-in-improving-search-result-diversification)
   - [1.1. Diversity Definitions in Search Result Diversification](#11-diversity-definitions-in-search-result-diversification)
