@@ -1,7 +1,8 @@
 ---
-title: Redefine “Diversity” in the era of LLMs in Information Retrieval/Recommendations System
+title: "Redefine 'Diversity' in the era of LLMs in Information Retrieval/Recommendations System"
 permalink: /blogs/diversity_ir/
-date: 2024-06
+layout: post
+date: 2024-06-01
 ---
 
 ## Table of Contents
