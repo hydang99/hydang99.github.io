@@ -196,12 +196,12 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
+      layout: talk
+      author_profile: false
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: ""
