@@ -1,7 +1,7 @@
 ---
 title: "Redefine 'Diversity' in the era of LLMs in Information Retrieval/Recommendations System"
-permalink: /blogs/diversity_ir/
-layout: single
+permalink: /blogs/
+layout: default
 date: 2024-06-01
 ---
 
@@ -108,8 +108,8 @@ There have been many diversity metrics have been introduced and implemented to e
         - Similarity between *Candidate 1* and *Candidate 3:* 0.3
         - Similarity between *Candidate 2* and *Candidate 3:* 0.5
 
-            <img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.08.01_PM.png" width="35%">
-            <!-- ![Screenshot 2024-03-14 at 2.08.01 PM.png](diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.08.01_PM.png) -->
+            <img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.08.01_PM.png" width="35%">
+            <!-- ![Screenshot 2024-03-14 at 2.08.01 PM.png](Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.08.01_PM.png) -->
             
 - **Coverage-based metrics:**  As mentioned in previous section, research also define diversity as coverage-level, where trying to evaluate if the recommended items could cover a variety of ***subtopics**,* in this sections, we focus on metrics that are commonly used and could be applied in modern models or approaches in both search and recommendations
     - C-Coverage: Its goal is to evaluate the whole systems instead of single evaluation of specific recommendations. It calculates the proportion of unique items recommended in the system.
@@ -125,12 +125,12 @@ There have been many diversity metrics have been introduced and implemented to e
             - Novelty for C4: 0.5 (moderately novel, shares similarities with items 2 and 3)
     - **alpha-nDCG@K** (Novelty-biased Normalized Discounted Cumulative Gain @K) [[Paper](https://dl.acm.org/doi/abs/10.1145/1390334.1390446)]. This metric aims to evaluate both relevant and non-redundant item, which is also first attempt to incorporate both relevance and diversity into one metric.
 
-    <img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.07.50_PM.png" width="70%">
-    <!-- ![Screenshot 2024-03-14 at 2.07.50 PM.png](diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.07.50_PM.png) -->
+    <img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.07.50_PM.png" width="70%">
+    <!-- ![Screenshot 2024-03-14 at 2.07.50 PM.png](Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.07.50_PM.png) -->
     
     - **NRBP (NRBP) (Novelty- and Rank-Biased Precision) [[Paper](https://link.springer.com/chapter/10.1007/978-3-642-04417-5_17)]**
         
-        <img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.07.55_PM.png" width="70%">
+        <img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_2.07.55_PM.png" width="70%">
         
 
 - **Intent-aware metrics:**
@@ -141,7 +141,7 @@ There have been many diversity metrics have been introduced and implemented to e
 # 2. “Additional” Diversity in Modern Retrieval/Recommendation System
 
 With the revolutionary era of LLM, there have been the implementation of LLM in different stages of IR framework, especially the introduction of RAG system. According to, it is significant to me that LLM have been or (can be) implemented in any stages of the IR system.
-<img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.06.04_PM.png" width="70%">
+<img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.06.04_PM.png" width="70%">
 
 Zhu et al. 2024., Figure of applications of LLMs in different components of modern IR systems. It has been shown that LLMs have been applied to every components of IR systems
 
@@ -160,15 +160,15 @@ Complex or Ambiguous Queries can contains multiple aspects but vanila RAG system
     - ✅ Although not focusing on result diversifications, the models aims to generate subtopics and to aggregate the retrieved document, with show the potential of utilizing LLMs to generate subtopics.
     - ✅ To address previous hallucinations in generation contents that can harm retrieval effectiveness → They propose RASE (relevance-aware sample estimation for more accurate weighting, with the aim of utilizing a score to identifying the relevancy of retrieved documents to the query (filtering process)
 
-<img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.26.17_PM.png" width="70%">
+<img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.26.17_PM.png" width="70%">
 
 
 1. **Agent4Ranking**: Semantic Robust Ranking via Personalized Query Rewriting Using Multi-agent LLM. This is an interesting approaches to utilize an emerging fields of simulations in LLMs, for this steps, the goal is to improve the personalizing objectives when the model aims to generate diverse queries that tackle different user types and diverse population. 
 
-<img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.32.26_PM.png" width="85%">
+<img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.32.26_PM.png" width="85%">
 
 
-<img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.31.55_PM.png" width="85%">
+<img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.31.55_PM.png" width="85%">
 
 
 - ✅ Simulations approaches to create different personas can be an interacting approaches with the aim to diversify the results, this approach can enhance both the fairness and personalizations of recommendations models.
@@ -180,7 +180,7 @@ For retriever steps, most of below papers focus on diversity in data types where
 1. **Sparse, Dense, and Attentional Representations for Text Retrieval,** (Luan et al, 2021)[[Paper](https://aclanthology.org/2021.tacl-1.20.pdf)] - The study proposes a novel neural model that aims to combine the efficiency of dual encoders with the expressive power of more complex attentional architectures. Additionally, the exploration of sparse-dense hybrid models seeks to leverage the precision of sparse retrieval methods. The outcomes suggest these innovative approaches surpass strong existing alternatives in large-scale retrieval scenarios, offering new directions for enhancing retrieval performance through a combination of techniques from both dense and sparse retrieval paradigms.
 2. **An Interpretable Ensemble of Graph and Language Models for Improving Search Relevance in E-Commerce**, Choudhary et al,. 2024. [[Paper](https://arxiv.org/abs/2403.00923)] - The paper discusses the complexity of ensuring search relevance in e-commerce, highlighting the difficulty in aligning user queries with suitable products due to **nuanced queries**. Traditional methods like language models and graph neural networks struggle with the rapid pace of technological advancements, making practical application challenging. This is compounded by issues of model generalizability, experimentation costs, and a lack of interpretability. The proposed solution, Plug and Play Graph Language Model (PP-GLAM), addresses these challenges by offering an explainable, modular framework that improves search relevance through an ensemble of models. It enhances diversity in search results by integrating different signals and models, ensuring broad coverage of user intents and product relationships. PP-GLAM outperforms existing models on complex, real-world e-commerce datasets
     
-    <img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_1.54.59_PM.png" width="100%">
+    <img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_1.54.59_PM.png" width="100%">
 
     
 - ✅ Diversity in representations, features can be an interesting approaches, especially the graph information. Even with diversification in search result topics, many research also utilize the graph data to understand items interaction or explanations for recommendations.
@@ -200,12 +200,12 @@ Since below research bring interesting approaches to incorporate “diversity”
 
 1. To filter the irrelevant in the retrieval results, **REAR: A Relevance-Aware Retrieval-Augmented Framework for Open-Domain Question Answering,** (Wang et al., 2023) [[Paper](https://arxiv.org/pdf/2402.17497.pdf)] -, a novel approach enhancing Large Language Models' (LLMs) effectiveness in open-domain QA by improving their ability to discern and utilize relevant external knowledge within Retrieval-Augmented Generation (RAG) systems. By integrating a specially designed rank head for accurate relevance assessment and employing advanced training methods, REAR significantly outperforms existing RAG models in open-domain QA tasks. Access to the code and data is provided for further exploration. This approach consider different granularities of relevance  allow it to look at different levels, thus can include a “diverse” or broad range of information to be deemed relevant and included in the final response.
     
-    <img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.34.25_PM.png" width="100%">
+    <img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-14_at_12.34.25_PM.png" width="100%">
     
 2. Additionally challenge in RAG system is the intepretability of the system and reasoning, which also happen in search result diversification domain. To address this, Diverse in prompts ReACT - ReAct, an innovative approach utilizing large language models, integrates reasoning and action to improve decision-making and information retrieval tasks. By intertwining reasoning traces with actionable steps, it dynamically updates action plans and interfaces with external sources, significantly enhancing task performance and interpretability. Demonstrating superior results on benchmarks like HotpotQA and Fever, and outperforming existing learning methods in interactive scenarios, ReAct showcases a marked improvement in accuracy, interpretability, and trustworthiness in complex language and decision-making tasks.
 3. Finally, the AutoCoT : AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS paper presents interesting approach of how **diversity** in demonstration can aid to the reasoning steps. This approach performs similar approaches as other diversity-construction by clusterings.
     
-    <img src="diversity_ir/Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-27_at_8.45.57_PM.png" width="100%">
+    <img src="Redefine%20%E2%80%9CDiversity%E2%80%9D%20in%20the%20era%20of%20LLMs%20in%20Informa%20ec3bbe96d3d240a081240bff07d91146/Screenshot_2024-03-27_at_8.45.57_PM.png" width="100%">
 
 # 3. Summary and Future Directions
 Through some of my analysis on current trends and approaches, I believe that these mentioned directions (📡) can further improve the strengths (✅) and weaknesses (🚫) of current and existing approaches
