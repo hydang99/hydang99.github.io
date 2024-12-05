@@ -6,16 +6,13 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-The PDF version of [CV](http://hydang99.github.io/HyDang_CV.pdf)
+The PDF version of [CV](http://hydang99.github.io/files/Hy_Dang_CV.pdf)
 {% include base_path %}
 Research Interests
 ======
-I am primarily focused on Natural Language Processing, Data Mining, and Machine
-Learning. I have an interest in addressing the challenges posed by information sparsity
-in textual data. Specifically, my recent project centers around augmenting text data
-by incorporating supplementary information to enrich its content. The objective is to
-enhance its relevance and usefulness for downstream applications such as information
-retrieval and text classification.
+* **Information Retrieval:** Search and ranking, natural language processing for information retrieval, large language models (LLMs) for information retrieval.
+
+* **Natural Language Processing Applications:** Automated fact-checking systems, retrieval-augmented generation (RAG), factuality in LLMs. 
 
 Education
 ======
@@ -27,12 +24,16 @@ Education
 
 Research Project
 ======
-* Aug 2022 - Present: Knowledge Enhancement for Text Using Expansion Techniques
+* April 2024 - Present: Factuality In The Wild & Retrieval-Augmented Generation Systems
+* Aug 2022 - April 2024: Knowledge Enhancement for Text Using Expansion Techniques
 
 Industry experience
 ======
-* Nov 2020 - Feb 2021: Research Scientist Intern (Natural Language Processing)
-* Aug 2020 - Nov 2020: Data Science Intern
+* Sept 2024 - Present: Applied Scientist Intern 
+  * Amazon Inc, Palo Alto, CA 
+  * Mentor: Dr. Tianyi Liu, Dr. Zhuofeng Wu
+
+* Aug 2020 - Feb 2021: Data Science Intern / Research Scientist Intern (Natural Language Processing)
   * Knorex Pte. Ltd
   * Supervisor: Mr. Phu Le
 
