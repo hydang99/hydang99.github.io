@@ -199,6 +199,173 @@
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+    z-index: 10000;
+    display: none; // Hidden by default, shown when needed
+    
+    &.hidden {
+      display: none;
+    }
+    
+    // Basic navicon styling for all screen sizes
+    .navicon {
+      width: 20px;
+      height: 2px;
+      background: #fff;
+      position: relative;
+      margin: 0 auto;
+      // Make navicon more visible for debugging
+      box-shadow: 0 0 5px rgba(255,255,255,0.5);
+      
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        transition: all 0.3s ease;
+      }
+      
+      &:before {
+        top: -6px;
+      }
+      
+      &:after {
+        bottom: -6px;
+      }
+    }
+    
+    // Mobile hamburger button styling
+    @include breakpoint(max-width $medium) {
+      width: 50px;
+      height: 50px;
+      border-radius: 5px;
+      margin: 5px;
+      
+      &.close .navicon {
+        background: transparent;
+        
+        &:before {
+          transform: rotate(45deg);
+          top: 0;
+        }
+        
+        &:after {
+          transform: rotate(-45deg);
+          bottom: 0;
+        }
+      }
+    }
+  }
+
+  // Force all navigation items to hamburger menu on mobile/small screens
+  @include breakpoint(max-width $medium) {
+    // Always show hamburger button on mobile
+    button {
+      display: block !important;
+      visibility: visible !important;
+      
+      &.hidden {
+        display: block !important;
+        visibility: visible !important;
+      }
+    }
+    
+    // Force hamburger menu to always be visible on mobile for testing
+    button {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    .visible-links {
+      li:not(:first-child) {
+        display: none !important;
+      }
+    }
+    
+    button {
+      display: block !important;
+      
+      &.hidden {
+        display: block !important;
+        visibility: visible !important;
+      }
+    }
+    
+    .hidden-links {
+      display: none;
+      
+      &:not(.hidden) {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 80px 20px 20px;
+        border: none;
+        border-radius: 0;
+        background: rgba(255, 255, 255, 0.98);
+        box-shadow: none;
+        z-index: 9999;
+        overflow-y: auto;
+        animation: slideIn 0.3s ease-out;
+        
+        &:before,
+        &:after {
+          display: none;
+        }
+        
+        // Add close button
+        .mobile-close-btn {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          font-size: 2rem;
+          font-weight: bold;
+          color: #333;
+          cursor: pointer;
+          z-index: 10001;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          background: rgba(255, 255, 255, 0.9);
+          border-radius: 50%;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          display: block;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        li {
+          display: block;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          margin: 0;
+          
+          &:last-child {
+            border-bottom: none;
+          }
+          
+          a {
+            margin: 0;
+            padding: 20px 0;
+            font-size: 1.5rem;
+            text-align: center;
+            border-bottom: none;
+            
+            &:hover {
+              background: transparent;
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
   }
 
   .visible-links {
@@ -259,6 +426,10 @@
     border-radius: $border-radius;
     background: #fff;
     box-shadow: 0 0 10px rgba(#000, 0.25);
+    
+    .mobile-close-btn {
+      display: none;
+    }
 
     a {
       margin: 0;
@@ -428,5 +599,17 @@
     @include breakpoint($medium) {
       display: block;
     }
+  }
+}
+
+// Mobile menu animations
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

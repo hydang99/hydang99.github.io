@@ -13,6 +13,16 @@ var $hlinks = $('#site-nav .hidden-links');
 var breaks = [];
 
 function updateNav() {
+  // Check if we're on mobile/small screen (below 768px)
+  var isMobile = window.innerWidth <= 768;
+  
+  if (isMobile) {
+    // On mobile: move all navigation items except the site title to hidden links
+    $vlinks.children().not(':first-child').prependTo($hlinks);
+    $btn.removeClass('hidden');
+    $btn.attr("count", $hlinks.children().length);
+    return;
+  }
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
@@ -67,6 +77,33 @@ $(window).resize(function() {
 $btn.on('click', function() {
   $hlinks.toggleClass('hidden');
   $(this).toggleClass('close');
+  
+  // Prevent body scroll when menu is open on mobile
+  if (window.innerWidth <= 768) {
+    if ($hlinks.hasClass('hidden')) {
+      $('body').css('overflow', 'auto');
+    } else {
+      $('body').css('overflow', 'hidden');
+    }
+  }
+});
+
+// Add click handler for close button (X) in mobile menu
+$(document).on('click', '.mobile-close-btn', function(e) {
+  e.preventDefault();
+  e.stopPropagation();
+  $hlinks.addClass('hidden');
+  $btn.removeClass('close');
+  $('body').css('overflow', 'auto');
+});
+
+// Close menu when clicking outside
+$(document).on('click', function(e) {
+  if (!$(e.target).closest('.greedy-nav').length && !$hlinks.hasClass('hidden')) {
+    $hlinks.addClass('hidden');
+    $btn.removeClass('close');
+    $('body').css('overflow', 'auto');
+  }
 });
 
 updateNav();
