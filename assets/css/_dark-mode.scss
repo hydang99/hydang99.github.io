@@ -98,28 +98,19 @@ th, td {
 
 /* Dark mode toggle button */
 .theme-toggle {
-  background: none !important;
-  border: none !important;
-  cursor: pointer !important;
-  padding: 8px !important;
-  border-radius: 50% !important;
-  transition: background-color 0.3s ease !important;
-  color: var(--nav-color) !important;
-  font-size: 1.2em !important;
-  display: inline-block !important;
-  margin: 0 !important;
-  line-height: 1 !important;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  color: var(--nav-color);
+  font-size: 1.2em;
 }
 
 .theme-toggle:hover {
-  background-color: var(--card-bg) !important;
-  color: var(--nav-hover-color) !important;
-}
-
-/* Ensure the toggle button is visible in navigation */
-.masthead__menu-item .theme-toggle {
-  display: inline-block !important;
-  vertical-align: middle !important;
+  background-color: var(--card-bg);
+  color: var(--nav-hover-color);
 }
 
 /* Smooth transitions for all elements */
