@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #007bff; margin: 20px 0;">
+<div class="cv-header-card">
   <h3 style="margin: 0 0 15px 0; color: #007bff;"><i class="fas fa-user-tie" style="margin-right: 8px;"></i>Curriculum Vitae</h3>
   
   <p style="margin: 0 0 10px 0;">

@@ -132,6 +132,150 @@ a:hover {
   color: var(--heading-color) !important;
 }
 
+/* More specific selectors for Misc page */
+.page__content div[style*="padding: 20px"] {
+  background-color: var(--card-bg) !important;
+  border-left: 4px solid var(--link-color) !important;
+}
+
+.page__content div[style*="padding: 15px"] {
+  background-color: var(--card-bg) !important;
+  border-left: 4px solid var(--link-color) !important;
+}
+
+/* Target all divs with specific styling patterns used in Misc page */
+.page__content div[style*="border-radius: 10px"],
+.page__content div[style*="border-radius: 8px"] {
+  background-color: var(--card-bg) !important;
+}
+
+/* Ensure all text in these cards is readable */
+.page__content div[style*="padding: 20px"] p,
+.page__content div[style*="padding: 15px"] p,
+.page__content div[style*="border-radius: 10px"] p,
+.page__content div[style*="border-radius: 8px"] p {
+  color: var(--text-color) !important;
+}
+
+.page__content div[style*="padding: 20px"] h4,
+.page__content div[style*="padding: 15px"] h4,
+.page__content div[style*="border-radius: 10px"] h4,
+.page__content div[style*="border-radius: 8px"] h4 {
+  color: var(--heading-color) !important;
+}
+
+.page__content div[style*="padding: 20px"] a,
+.page__content div[style*="padding: 15px"] a,
+.page__content div[style*="border-radius: 10px"] a,
+.page__content div[style*="border-radius: 8px"] a {
+  color: var(--link-color) !important;
+}
+
+.page__content div[style*="padding: 20px"] a:hover,
+.page__content div[style*="padding: 15px"] a:hover,
+.page__content div[style*="border-radius: 10px"] a:hover,
+.page__content div[style*="border-radius: 8px"] a:hover {
+  color: var(--link-hover-color) !important;
+}
+
+/* Nuclear option - override ALL divs with inline background styles */
+.page__content div[style*="background"] {
+  background-color: var(--card-bg) !important;
+}
+
+/* Target specific inline style patterns */
+.page__content div[style*="background-color: #f8f9fa"] {
+  background-color: var(--card-bg) !important;
+}
+
+/* Override any inline background styles */
+.page__content div[style*="background-color"] {
+  background-color: var(--card-bg) !important;
+}
+
+/* Force override for any remaining light backgrounds */
+.page__content div {
+  background-color: var(--card-bg) !important;
+}
+
+/* But preserve transparent backgrounds for specific elements */
+.page__content .author__avatar,
+.page__content .author__content,
+.page__content .author__urls-wrapper,
+.page__content .author__urls,
+.page__content .sidebar,
+.page__content .sidebar__right {
+  background-color: transparent !important;
+}
+
+/* Misc page cards using CSS class */
+.misc-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #007bff;
+  margin: 20px 0;
+}
+
+[data-theme="dark"] .misc-card {
+  background-color: var(--card-bg) !important;
+  border-left: 4px solid var(--link-color) !important;
+}
+
+[data-theme="dark"] .misc-card p {
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .misc-card h4 {
+  color: var(--heading-color) !important;
+}
+
+[data-theme="dark"] .misc-card a {
+  color: var(--link-color) !important;
+}
+
+[data-theme="dark"] .misc-card a:hover {
+  color: var(--link-hover-color) !important;
+}
+
+[data-theme="dark"] .misc-card strong {
+  color: var(--heading-color) !important;
+}
+
+/* CV page header card */
+.cv-header-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #007bff;
+  margin: 20px 0;
+}
+
+[data-theme="dark"] .cv-header-card {
+  background-color: var(--card-bg) !important;
+  border-left: 4px solid var(--link-color) !important;
+}
+
+[data-theme="dark"] .cv-header-card h3 {
+  color: var(--link-color) !important;
+}
+
+[data-theme="dark"] .cv-header-card p {
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .cv-header-card strong {
+  color: var(--heading-color) !important;
+}
+
+[data-theme="dark"] .cv-header-card a {
+  color: var(--link-color) !important;
+}
+
+[data-theme="dark"] .cv-header-card a:hover {
+  color: var(--link-hover-color) !important;
+}
+
 /* Code blocks */
 pre, code {
   background-color: var(--code-bg);
