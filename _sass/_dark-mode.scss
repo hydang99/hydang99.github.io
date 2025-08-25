@@ -1,0 +1,411 @@
+/* Dark Mode Styles */
+:root {
+  /* Light mode variables */
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --heading-color: #2c3e50;
+  --link-color: #007bff;
+  --link-hover-color: #0056b3;
+  --border-color: #e9ecef;
+  --card-bg: #f8f9fa;
+  --code-bg: #f1f3f4;
+  --sidebar-bg: #f8f9fa;
+  --masthead-bg: #f8f9fa;
+  --nav-color: #666666;
+  --nav-hover-color: #007bff;
+}
+
+[data-theme="dark"] {
+  /* Dark mode variables */
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --heading-color: #ffffff;
+  --link-color: #4dabf7;
+  --link-hover-color: #74c0fc;
+  --border-color: #404040;
+  --card-bg: #2a2a2a;
+  --code-bg: #3a3a3a;
+  --sidebar-bg: #2d2d2d;
+  --masthead-bg: #2d2d2d;
+  --nav-color: #b0b0b0;
+  --nav-hover-color: #4dabf7;
+}
+
+/* Apply variables to elements */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Navigation */
+.masthead {
+  background-color: var(--masthead-bg);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.greedy-nav {
+  background-color: var(--masthead-bg);
+}
+
+.greedy-nav a {
+  color: var(--nav-color);
+}
+
+.greedy-nav a:hover {
+  color: var(--nav-hover-color);
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid var(--border-color);
+}
+
+/* Cards and containers */
+.archive__item, .notice, .notice--primary, .notice--info, .notice--warning, .notice--success, .notice--danger {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+/* Blog post cards - make them readable in dark mode */
+.blog-post {
+  background-color: var(--card-bg) !important;
+  border-left: 3px solid var(--link-color) !important;
+}
+
+.blog-post h3 {
+  color: var(--heading-color) !important;
+}
+
+.blog-post h3 a {
+  color: var(--link-color) !important;
+}
+
+.blog-post h3 a:hover {
+  color: var(--link-hover-color) !important;
+}
+
+.blog-post p {
+  color: var(--text-color) !important;
+}
+
+.blog-post .post-meta {
+  color: var(--text-color) !important;
+}
+
+/* Misc page cards - make them readable in dark mode */
+.page__content div[style*="background-color: #f8f9fa"] {
+  background-color: var(--card-bg) !important;
+  border-left: 4px solid var(--link-color) !important;
+}
+
+.page__content div[style*="background-color: #f8f9fa"] p {
+  color: var(--text-color) !important;
+}
+
+.page__content div[style*="background-color: #f8f9fa"] strong {
+  color: var(--heading-color) !important;
+}
+
+.page__content div[style*="background-color: #f8f9fa"] a {
+  color: var(--link-color) !important;
+}
+
+.page__content div[style*="background-color: #f8f9fa"] a:hover {
+  color: var(--link-hover-color) !important;
+}
+
+.page__content div[style*="background-color: #f8f9fa"] h4 {
+  color: var(--heading-color) !important;
+}
+
+/* Code blocks */
+pre, code {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border-color);
+}
+
+/* Tables */
+table {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+th, td {
+  border: 1px solid var(--border-color);
+}
+
+/* Additional elements */
+.page__content {
+  background-color: var(--bg-color);
+}
+
+.page__title {
+  color: var(--heading-color);
+}
+
+.page__meta {
+  color: var(--text-color);
+}
+
+.page__meta a {
+  color: var(--link-color);
+}
+
+.page__meta a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Preserve original appearance for specific sections */
+.author__avatar {
+  background-color: transparent !important;
+}
+
+.author__content {
+  background-color: transparent !important;
+}
+
+.author__name {
+  color: #2c3e50 !important;
+}
+
+.author__bio {
+  color: #333333 !important;
+}
+
+.author__urls-wrapper {
+  background-color: transparent !important;
+}
+
+.author__urls {
+  background-color: transparent !important;
+}
+
+.author__urls a {
+  color: #007bff !important;
+}
+
+.author__urls a:hover {
+  color: #0056b3 !important;
+}
+
+/* Preserve highlights section appearance */
+.page__content table {
+  background-color: transparent !important;
+}
+
+.page__content td {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+/* Preserve sidebar appearance */
+.sidebar {
+  background-color: transparent !important;
+}
+
+.sidebar__right {
+  background-color: transparent !important;
+}
+
+/* Archive items */
+.archive__item {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.archive__item-title a {
+  color: var(--link-color);
+}
+
+.archive__item-title a:hover {
+  color: var(--link-hover-color);
+}
+
+.archive__item-excerpt {
+  color: var(--text-color);
+}
+
+/* Sidebar */
+.sidebar__right {
+  background-color: var(--sidebar-bg);
+  border-left: 1px solid var(--border-color);
+}
+
+.sidebar__right .toc {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.sidebar__right .toc__title {
+  color: var(--heading-color);
+}
+
+.sidebar__right .toc__menu {
+  color: var(--text-color);
+}
+
+.sidebar__right .toc__menu a {
+  color: var(--link-color);
+}
+
+.sidebar__right .toc__menu a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Dark mode toggle button */
+.theme-toggle {
+  background: none !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 8px 12px !important;
+  border-radius: 6px !important;
+  transition: all 0.3s ease !important;
+  color: var(--nav-color) !important;
+  font-size: 1.1em !important;
+  display: inline-block !important;
+  margin: 0 !important;
+  line-height: 1 !important;
+  min-width: 40px !important;
+  text-align: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.theme-toggle:hover {
+  background-color: var(--card-bg) !important;
+  color: var(--nav-hover-color) !important;
+  transform: scale(1.05) !important;
+}
+
+.theme-toggle:active {
+  transform: scale(0.95) !important;
+}
+
+/* Ensure the toggle button is visible in navigation */
+.masthead__menu-item .theme-toggle {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin-left: 10px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: relative !important;
+  z-index: 1000 !important;
+}
+
+/* Prevent the theme from hiding the toggle button */
+.greedy-nav .visible-links .masthead__menu-item:last-child {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Make toggle button always visible and prevent greedy nav from moving it */
+.theme-toggle {
+  flex-shrink: 0 !important;
+  min-width: 40px !important;
+  width: 40px !important;
+}
+
+.masthead__menu-item:has(.theme-toggle) {
+  flex-shrink: 0 !important;
+  min-width: 50px !important;
+}
+
+/* Fixed toggle button container */
+.theme-toggle-container {
+  position: absolute !important;
+  right: 20px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 1001 !important;
+  display: flex !important;
+  align-items: center !important;
+  background-color: var(--masthead-bg) !important;
+  padding: 8px !important;
+  border-radius: 8px !important;
+  border: 2px solid var(--border-color) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+}
+
+/* Ensure masthead has relative positioning for absolute toggle */
+.masthead__inner-wrap {
+  position: relative !important;
+}
+
+/* Ensure toggle button stays in visible links */
+.greedy-nav .visible-links .masthead__menu-item:last-child {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  flex-shrink: 0 !important;
+  min-width: 50px !important;
+}
+
+/* Mobile navigation toggle button */
+.hidden-links .theme-toggle {
+  margin: 5px 0 !important;
+  width: 100% !important;
+  text-align: left !important;
+  padding: 10px 15px !important;
+}
+
+/* Footer */
+.page__footer {
+  background-color: var(--card-bg);
+  border-top: 1px solid var(--border-color);
+}
+
+.page__footer-follow {
+  background-color: var(--card-bg);
+}
+
+.page__footer-follow .social-icons {
+  background-color: var(--card-bg);
+}
+
+.page__footer-follow .social-icons li {
+  color: var(--text-color);
+}
+
+.page__footer-follow .social-icons a {
+  color: var(--link-color);
+}
+
+.page__footer-follow .social-icons a:hover {
+  color: var(--link-hover-color);
+}
+
+.page__footer-copyright {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+.page__footer-copyright a {
+  color: var(--link-color);
+}
+
+.page__footer-copyright a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

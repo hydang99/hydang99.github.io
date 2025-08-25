@@ -16,8 +16,20 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul class="hidden-links hidden">
+          <li class="masthead__menu-item">
+            <button class="theme-toggle" title="Switch to dark mode">
+              <i class="fas fa-moon"></i> Toggle Theme
+            </button>
+          </li>
+        </ul>
       </nav>
+    </div>
+    <!-- Fixed toggle button completely outside of greedy nav -->
+    <div class="theme-toggle-container">
+      <button class="theme-toggle" title="Switch to dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
     </div>
   </div>
 </div>

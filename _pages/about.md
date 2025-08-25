@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a third-year (2022-now) Ph.D student in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/), and work in [DM2 Lab](http://www.meng-jiang.com/lab.html) directed by [Prof. Meng Jiang](http://www.meng-jiang.com/). My research interests lie in the fields of Natural Language Processing and Data Mining.
+I am a forth-year (2022-now) Ph.D student in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/), and work in [DM2 Lab](http://www.meng-jiang.com/lab.html) directed by [Prof. Meng Jiang](http://www.meng-jiang.com/). My research interests lie in the fields of Natural Language Processing and Data Mining.
 
 I received double degrees Bachelor of Science in Computer Science and Bachelor of Science in Mathematics from [Texas Christian University](https://www.tcu.edu) in December 2021. 
 
@@ -15,19 +15,47 @@ I received double degrees Bachelor of Science in Computer Science and Bachelor o
 <q>I have not failed. I've just found 10,000 ways that won't work.&#8230;</q> &#8211;Thomas A. Edison
 
 
-Updates/News
-======
-- ![](/icons/news.png) **2024-08** Happy to announce that I will join Amazon as Applied Scientist Intern starting in September! See everyone in Palo Alto soon! 
+## ⭐ Recent Highlights
 
-- ![](/icons/news.png) **2023-05-30** One paper accepted at [CODI 2023- ACL 2023](https://sites.google.com/view/codi-2023/) - 4th workshop on Computational Approaches to Discourse. 
+<table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Aug, 2025</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">Work done during Amazon Internship (LLM Function Calling) paper accepted at <a href="https://2025.emnlp.org/" target="_blank"><strong>EMNLP 2025 Main</strong></a>.</td>
+  </tr>
+  
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 May, 2025</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2503.15354"><strong>DYDECOMP</strong></a> paper accepted at <a href="https://2025.aclweb.org/" target="_blank"><strong>ACL 2025 Main</strong></a>.</td>
+  </tr>
+  
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745; border: none; font-size: 1em;">🎉 Aug, 2024</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">Happy to announce that I will join <strong>Amazon</strong> as Applied Scientist Intern starting in September! See everyone in Palo Alto soon!</td>
+  </tr>
+  
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 May, 2023</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://aclanthology.org/2023.codi-1.22.pdf"><strong>Community Recommendation Using Mental Helath Discourse</strong></a> Paper accepted at <a href="https://sites.google.com/view/codi-2023/" target="_blank"><strong>CODI 2023 - ACL 2023</strong></a></td>
+  </tr>
+  
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #ffc110; border: none; font-size: 1em;">🎓 Aug, 2022</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">Joined <strong>University of Notre Dame</strong> as a PhD student in Computer Science & Engineering under the supervision of <a href="http://www.meng-jiang.com/" target="_blank"><strong>Prof. Meng Jiang</strong></a>. Go Irish ☘️.</td>
+  </tr>
+  
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #6c757d; border: none; font-size: 1em;">🏆 Dec, 2021</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">Graduated with <strong>4.0 GPA (Summa Cum Laude)</strong> with double degrees in Computer Science and Mathematics from <strong>Texas Christian University</strong>.</td>
+  </tr>
+</table>
 
-- ![](/icons/education_icon.png) **2022-04-15** Happy to announce that I will join [University of Notre Dame](https://www.nd.edu/) as a PhD student in Computer Science & Engineering starting Fall 2022 under the supervision of [Prof. Meng Jiang](http://www.meng-jiang.com/). 
+<!-- **📝 Quick Add News:** To add new updates like "Paper accepted at EMNLP 2024!", simply edit this section and add a new entry with the format:
+```
+<strong style="color: #007bff;">📄 2024-XX-XX</strong> - Paper accepted at <strong>EMNLP 2024</strong>!
+``` -->
 
-- ![](/icons/education_icon.png) **2021-12-15** I graduated with 4.0 cumulative GPA (Summa Cum Laude) with double degrees (Bachelor of Science in Computer Science and Bachelor of Science in Mathematics) from [Texas Christian University](https://www.tcu.edu)
 
-
-Contact
-======
+## 📧 Contact
 I’m best reached via email. I’m always open to interesting conversations and collaboration.
 - Email: hdang [at] nd [dot] edu
 - Office: 355 Fitzpatrick Hall of Engineering
