@@ -44,7 +44,7 @@ I received double degrees Bachelor of Science in Computer Science and Bachelor o
   </tr>
   
   <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #6c757d; border: none; font-size: 1em;">🏆 Dec, 2021</td>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #ffc110; border: none; font-size: 1em;">🎓 Dec, 2021</td>
     <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">Graduated with <strong>4.0 GPA (Summa Cum Laude)</strong> with double degrees in Computer Science and Mathematics from <strong>Texas Christian University</strong>.</td>
   </tr>
 </table>
