@@ -7,6 +7,7 @@ venue: "CODI-ACL 2023"
 categories: [Publication]
 tags: [Mental Health, Recommendation]
 link: /publication/codi_acl_2023/
+excerpt: "Project Page."
 title_link: /publication/codi_acl_2023/
 paper_link: https://aclanthology.org/2023.codi-1.22/
 thumbnail: /publication/codi_acl_2023/static/images/mental_health_main.png
