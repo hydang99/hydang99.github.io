@@ -6,12 +6,28 @@ author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="categories" %}
+{% assign combined = site.posts | concat: site.publications %}
+{% include group-by-array collection=combined field="categories" %}
 
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
+  <section class="category-group" data-category="{{ category | slugify }}">
+    <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
+    {% for post in posts %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </section>
 {% endfor %}
+
+<script>
+(function() {
+  var hash = window.location.hash ? window.location.hash.substring(1) : '';
+  if (!hash) { return; }
+  var groups = document.querySelectorAll('.category-group');
+  groups.forEach(function(group) {
+    if (group.getAttribute('data-category') !== hash) {
+      group.style.display = 'none';
+    }
+  });
+})();
+</script>

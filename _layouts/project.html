@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div class="project-page">
+  {{ content }}
+  {% if page.link %}<div><a href="{{ page.link }}" class="btn">Visit Project</a></div>{% endif %}
+  {% if page.share %}{% include social-share.html %}{% endif %}
+</div>
+
+
+

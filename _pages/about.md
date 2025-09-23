@@ -15,7 +15,7 @@ I received double degrees Bachelor of Science in Computer Science and Bachelor o
 <q>I have not failed. I've just found 10,000 ways that won't work.&#8230;</q> &#8211;Thomas A. Edison
 
 
-## ⭐ Recent Highlights
+## ⭐ Recent News
 
 <table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
   <tr style="margin-bottom: 12px;">
@@ -53,7 +53,9 @@ I received double degrees Bachelor of Science in Computer Science and Bachelor o
 ```
 <strong style="color: #007bff;">📄 2024-XX-XX</strong> - Paper accepted at <strong>EMNLP 2024</strong>!
 ``` -->
+## 📃 Publications
 
+{% include publications-cards.html limit=6 %}
 
 ## 📧 Contact
 I’m best reached via email. I’m always open to interesting conversations and collaboration.

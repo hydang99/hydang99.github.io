@@ -1,0 +1,68 @@
+{% comment %}
+Renders publication cards with thumbnail on the left and details/actions on the right.
+Usage: {% include publications-cards.html limit=3 %}
+Accepts optional 'limit' param.
+Relies on optional front matter per publication: 'thumbnail', 'authors', 'code', 'arxiv'.
+Falls back to header.teaser or /icons/news.png for thumbnail.
+{% endcomment %}
+
+{% include base_path %}
+
+<style>
+.pubs-grid { display: grid; grid-template-columns: 1fr; gap: 8px; }
+@media(min-width: 720px){ .pubs-grid { grid-template-columns: 1fr; } }
+.pub-card { display: flex; gap: 12px; padding: 12px 0; background: transparent; border-left: 0; border-radius: 0; align-items: flex-start; border-bottom: 1px solid #e6e6e6; }
+.pub-card:first-child { border-top: 1px solid #e6e6e6; }
+.pub-thumb { width: 130px; min-width: 130px; height: 110px; overflow: hidden; border-radius: 0; background: #fff; border: 1px solid #dddddd; display: flex; align-items: center; justify-content: center; padding: 2px; }
+.pub-thumb img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+.pub-body { display: flex; flex-direction: column; gap: 2px; line-height: 1.3; }
+.pub-body h3 { margin: 0; font-size: .95rem; font-weight: 600; }
+.pub-body h3 a { color: #1a73e8; text-decoration: none; }
+.pub-body h3 a:hover { text-decoration: underline; }
+.pub-meta { margin: 0; color: #666; font-size: .85rem; }
+.pub-actions { margin-top: 2px; }
+.pub-actions a { display: inline-block; margin: 4px 6px 0 0; padding: 2px 8px; font-size: .8rem; border: 1px solid #007bff; border-radius: 10px; text-decoration: none; color: #007bff; background: transparent; }
+.pub-actions a:hover { background: #007bff; color: #fff; }
+@media(max-width: 520px){ .pub-thumb { width: 100px; min-width: 100px; height: 72px; } .pub-body h3{font-size:.9rem} .pub-meta{font-size:.8rem} }
+.pub-venue { color: #13a527; font-style: italic; font-weight: 600; }
+</style>
+
+{% assign pubs_all = site.publications | sort: 'date' | reverse %}
+{% if include.limit %}
+  {% assign pubs = pubs_all | slice: 0, include.limit %}
+{% else %}
+  {% assign pubs = pubs_all %}
+{% endif %}
+
+<div class="pubs-grid">
+{% for pub in pubs %}
+  {% assign thumb = pub.thumbnail | default: pub.header.teaser | default: '/icons/education_paper.svg' %}
+  <div class="pub-card">
+    <a class="pub-thumb">
+      <img src="{{ thumb | relative_url }}" alt="{{ pub.title }} thumbnail">
+    </a>
+    <div class="pub-body">
+      <h3>{% if pub.title_link %}<a href="{{ pub.title_link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
+      <div class="pub-meta">
+        {% capture me %}{{ site.author.name | default: 'Hy Dang' }}{% endcapture %}
+        {% if pub.authors %}
+          {% capture me_bold %}<strong class="pub-author-me">{{ me }}</strong>{% endcapture %}
+          {% assign authors_fmt = pub.authors | replace: me, me_bold %}
+          {{ authors_fmt }} ·<br>
+        {% endif %}
+        {% if pub.venue %}<span class="pub-venue">{{ pub.venue }}</span>{% endif %}
+      </div>
+      <!-- {% if pub.excerpt %}<div class="pub-excerpt">{{ pub.excerpt }}</div>{% endif %} -->
+      <div class="pub-actions">
+        {% if pub.link %}<a href="{{ pub.link }}">Project Page</a>{% endif %}
+        {% if pub.paperurl %}<a href="{{ pub.paperurl }}">PDF</a>{% endif %}
+        {% if pub.paper_link %}<a href="{{ pub.paper_link }}">Paper</a>{% endif %}
+        {% if pub.arxiv %}<a href="{{ pub.arxiv }}">arXiv</a>{% endif %}
+        {% if pub.code %}<a href="{{ pub.code }}">Code</a>{% endif %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+

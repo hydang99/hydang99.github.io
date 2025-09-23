@@ -1,0 +1,81 @@
+<!-- ---
+layout: project
+permalink: /publication/emnlp_2025/
+--- -->
+
+<!-- Load Bulma and helpers locally for this page only -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-slider@2.0.5/dist/css/bulma-slider.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./static/css/index.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bulma-slider@2.0.5/dist/js/bulma-slider.min.js"></script>
+<script src="./static/js/index.js"></script>
+
+<!-- Project content (no internal navbar; site masthead is inherited from layout) -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">Improving Large Language Models Function Calling and Interpretability via Guided-Structured Templates</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://hygiadang.com">Hy Dang</a><sup>1, 2*</sup>,</span>
+            <span class="author-block"><a href="https://www.linkedin.com/in/tianyi-liu-774b54162/">Tianyi Liu</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://cserxy.github.io/">Zhuofeng Wu</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://jingfengyang.github.io/">Jingfeng Yang</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://hmjianggatech.github.io/">Haoming Jiang</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://www.linkedin.com/in/tao-yang-2315b5191/">Tao Yang</a><sup>1,2</sup>,</span>
+            <span class="author-block"><a href="https://www.linkedin.com/in/brickee/">Pei Chen</a><sup>2</sup></span>
+            <span class="author-block"><a href="https://www.linkedin.com/in/helen7wang/">Helen Wang</a><sup>2</sup></span>
+            <span class="author-block"><a href="Huasheng Li">Huasheng Li</a><sup>2</sup></span>
+            <span class="author-block"><a href="Bing Yin">Bing Yin</a><sup>2</sup></span>
+            <span class="author-block"><a href="http://www.meng-jiang.com/">Meng Jiang</a><sup>1,2</sup></span>
+
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Notre Dame,</span>
+            <span class="author-block"><sup>2</sup>Amazon</span>
+          </div>
+          <span style="color: #13a527; font-weight: bold;">EMNLP 2025 Main Conference</span></br>
+          <span style="color: #13a527; font-weight: bold;">* Work Done During an Internship at Amazon</span>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://2025.emnlp.org/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span><span>To be Appeared at EMNLP2025</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2011.12948" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Large language models (LLMs) have demonstrated strong reasoning and tool-use capabilities, yet they often fail in real-world tool-interactions due to incorrect parameterization, poor tool selection, or misinterpretation of user intent. These issues often stem from an incomplete understanding of user goals and inadequate comprehension of tool documentation. While Chain-of-Thought (CoT) prompting has proven effective for enhancing reasoning in general contexts, our analysis reveals that free-form CoT is insufficient and sometimes counterproductive for structured function-calling tasks. To address this, we introduce a curriculum-inspired framework that leverages structured reasoning templates to guide LLMs through more deliberate step-by-step instructions for generating function callings. Experimental results show that our method reduces tool-use errors, achieving 3–12% relative improvements over strong baselines across diverse model series and approaches. Moreover, our framework enhances the robustness, interpretability, and transparency of tool-using agents, advancing the development of more reliable AI assistants for real-world applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

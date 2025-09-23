@@ -1,0 +1,345 @@
+---
+layout: project
+permalink: /publication/emnlp_2025/
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Improving Large Language Models Function Calling and Interpretability via Guided-Structured Templates">
+  <meta name="keywords" content="Agent">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Improving Large Language Models Function Calling and Interpretability via Guided-Structured Templates</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+<!-- 
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav> -->
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">Improving Large Language Models Function Calling and Interpretability via Guided-Structured Templates</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://hygiadang.com">Hy Dang</a><sup>1, 2*</sup>,</span>
+            <span class="author-block"><a href="https://www.linkedin.com/in/tianyi-liu-774b54162/">Tianyi Liu</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://cserxy.github.io/">Zhuofeng Wu</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://jingfengyang.github.io/">Jingfeng Yang</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://hmjianggatech.github.io/">Haoming Jiang</a><sup>2</sup>,</span>
+            <span class="author-block"><a href="https://www.linkedin.com/in/tao-yang-2315b5191/">Tao Yang</a><sup>1,2</sup>,</span>
+            <span class="author-block"><a href="https://www.linkedin.com/in/brickee/">Pei Chen</a><sup>2</sup></span>
+            <span class="author-block"><a href="https://www.linkedin.com/in/helen7wang/">Helen Wang</a><sup>2</sup></span>
+            <span class="author-block"><a href="Huasheng Li">Huasheng Li</a><sup>2</sup></span>
+            <span class="author-block"><a href="Bing Yin">Bing Yin</a><sup>2</sup></span>
+            <span class="author-block"><a href="http://www.meng-jiang.com/">Meng Jiang</a><sup>1,2</sup></span>
+
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Notre Dame,</span>
+            <span class="author-block"><sup>2</sup>Amazon</span>
+          </div>
+          <span style="color: #13a527; font-weight: bold;">EMNLP 2025 Main Conference</span></br>
+          <span style="color: #13a527; font-weight: bold;">* Work Done During an Internship at Amazon</span>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://https://2025.emnlp.org/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>To be Appeared at EMNLP 2025</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2509.18076"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+            Large language models (LLMs) have demonstrated strong reasoning and tool-use capabilities, yet they often fail in real-world tool-interactions due to incorrect parameterization, poor tool selection, or misinterpretation of user intent. These issues often stem from an incomplete understanding of user goals and inadequate comprehension of tool documentation. While Chain-of-Thought (CoT) prompting has proven effective for enhancing reasoning in general contexts, our analysis reveals that free-form CoT is insufficient and sometimes counterproductive for structured function-calling tasks. To address this, we introduce a curriculum-inspired framework that leverages structured reasoning templates to guide LLMs through more deliberate step-by-step instructions for generating function callings. Experimental results show that our method reduces tool-use errors, achieving 3–12% relative improvements over strong baselines across diverse model series and approaches. Moreover, our framework enhances the robustness, interpretability, and transparency of tool-using agents, advancing the development of more reliable AI assistants for real-world applications.
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video.
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+<!-- Introduction -->
+<div class="columns is-centered">
+  <div class="column is-full-width">
+    <h2 class="title is-3">Introduction</h2>
+
+    <div class="content has-text-justified">
+      <p>
+        Large language models (LLMs) have made impressive progress in reasoning and tool use, enabling agents that can interact with external APIs to complete tasks ranging from simple lookups to complex workflows. Yet in practice, <span style="color:red; font-weight:bold;">LLMs often fail to make correct function calls</span>—choosing the wrong tool, mis-parameterizing inputs, or misinterpreting user intent. These failures, combined with a lack of transparency in how calls are generated, undermine trust and reliability in real-world applications where functional correctness is essential.
+      </p>
+      <p>
+        To address this challenge, we introduce a <strong>template-based reasoning framework</strong> and experiment it on both prompting and finetuning settings that structures how LLMs approach function calling. Instead of relying on free-form chain-of-thought, our approach guides models through step-by-step templates aligned with human problem-solving and tool specifications. We further create ToolGT, a synthetic dataset that encodes these reasoning patterns for training. Experiments show that this structured approach significantly reduces tool-use errors and improves interpretability compared to standard prompting methods. Together, our framework and dataset offer a path toward building more reliable, transparent, and generalizable tool-using agents.
+      </p>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <h2 class="title is-3">Tool-(G)uided-(T)emplate structured reasoning - ToolGT</h2>
+    <div class="columns is-centered">
+
+      <div class="column">
+        <div class="content">
+          <figure style="text-align:center;">
+            <img src="./static/images/main_fig.png" alt="Overview of ToolGT dataset construction" style="width:100%;">
+            <figcaption style="font-size:1.0em; margin-top:10px; text-align:justify;">
+              <strong>Figure:</strong> Overview of our supervised fine-tuning dataset construction <strong>(ToolGT)</strong> pipeline 
+              following three different stages. <br> <strong>Stage 1 (Reasoning Chains Construction)</strong> — an LLM, guided by a 
+              curriculum/template <em>c</em>, generates a structured reasoning chain <em>r</em> based on query (<em>x</em>), 
+              set of available tools <em>T</em>, and ground truth label <em>y</em>. <br>
+              <strong>Stage 2 (Function Calling Generation Using Generated Reasoning)</strong> — we evaluate the effectiveness of <em>r</em> 
+              by prompting an LLM to predict a function call <em>y'</em> conditioned on (<em>x, T, r</em>), without providing <em>c</em> at inference. 
+              <br> <strong>Stage 3 (Training Sample Filtering)</strong> — to ensure high-quality supervision, we compare the predicted <em>y'</em> 
+              with the reference <em>y</em> using two rounds of verification: (1) Exact Match and AST-based structural comparison (AST/EM), 
+              and (2) LLM-based judgment to identify semantically equivalent alternatives. Only samples that pass verification are 
+              included in the final dataset.
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+    <!--/ Matting. -->
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <h2 class="title is-3">Main Experimental Results</h2>
+    <div class="columns is-centered">
+
+      <div class="column">
+        <div class="content">
+          <p>
+            Using <i>template-based approach</i>, we can observe improvements with diverse model families compared to other baselines, demonstrating the benefits of template-based, even with prompt-engineering approach.
+          </p>
+          <img src="./static/images/prompting_result.png" alt="Prompting Result With Our Approach" style="width:85%;">
+        </div>
+
+      </div>
+
+      <div class="column">
+        <div class="content">
+          <img src="./static/images/ft_result.png" alt="Finetuning Result With Our Approach" style="width:85%;">
+        </div>
+        <p>
+          With our finetuning dataset constructed using a template-based approach, we observe consistent improvements across diverse model families compared to other baselines and prompting methods. This highlights the importance of internalizing structured, curriculum-inspired guidance rather than relying solely on free-form CoT.        </p>
+      </div>
+    </div>
+    <!--/ Matting. -->
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <h2 class="title is-3">Additional Analysis</h2>
+
+    <div class="columns is-align-items-start"> <!-- makes them vertically aligned -->
+      
+      <!-- Left column: text -->
+      <div class="column is-half">
+        <h3 class="title is-5">Impact of Template Complexity</h3>
+        <div class="content">
+        <p>We compare three template types—Simple, Claude, and Detail—to evaluate how template complexity affects performance. Results show that the Detail template consistently achieves the highest overall accuracy. Interestingly, Simple templates occasionally outperform others on specific subtasks like Relevancy, suggesting that while detailed structures improve overall reliability, simpler templates can be advantageous for targeted tasks. </p>
+        <p>👉 These findings highlight a trade-off between specificity and simplicity, motivating future research on adaptive strategies that adjust reasoning depth based on task requirements.
+          </p>
+        </div>
+      </div>
+
+      <!-- Right column: figure -->
+      <div class="column is-half has-text-justified">
+        <img src="./static/images/ablation_study_1_2.png" 
+             alt="Ablation Study Results" 
+             style="max-width:70%; height:auto;">
+      </div>
+
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <h3 class="title is-5">Training Coverage in Complex Scenarios</h3>
+        <div style="text-align:center;">
+        <img src="./static/images/ablation_study_2.png" alt="Training Coverage" style="width:90%;">
+      </div>
+      </div>
+      <p>
+      We further analyze fine-tuning across LLaMA-3.1-8B and Qwen-2.5-14B on the Nexus benchmark. While fine-tuning improved performance on simpler, non-nested tasks, we observed unexpected degradation on complex, compositional tasks. </p>
+      <p>👉 This suggests that limited training coverage of complex tool-use scenarios can lead to overfitting on simpler cases, reducing generalization. Future work should expand datasets to better capture nested and compositional reasoning.      </div>
+
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{dang2025improving,
+  author    = {Hy Dang and Tianyi Liu and Zhuofeng Wu and Jingfeng Yang and Haoming Jiang and Tao Yang and Pei Chen and Zhengyang Wang and Helen Wang and Huasheng Li and Bing Yin and Meng Jiang},
+  title     = {Improving Large Language Models Function Calling and Interpretability via Guided-Structured Templates},
+  booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+  year={2025},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -4,7 +4,8 @@ permalink: /blogs/diversity-ir/
 layout: single
 date: 2024-06-01
 author_profile: true
-categories: [research]
+categories: [Blog]
+tags: [IR, LLM, survey]
 excerpt: "A comprehensive survey of diversity in modern Information Retrieval and Recommendation systems, exploring traditional approaches and future directions with Large Language Models."
 author: "Hy Dang"
 read_time: "43 minutes"
