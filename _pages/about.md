@@ -20,7 +20,7 @@ I received double degrees Bachelor of Science in Computer Science and Bachelor o
 <table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
   <tr style="margin-bottom: 12px;">
     <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Aug, 2025</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">Work done during Amazon Internship (LLM Function Calling) paper accepted at <a href="https://2025.emnlp.org/" target="_blank"><strong>EMNLP 2025 Main</strong></a>.</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2509.18076"><strong>LLM Function Calling with Templates</strong></a> (Work done during Amazon Internship) accepted at <a href="https://2025.emnlp.org/" target="_blank"><strong>EMNLP 2025 Main</strong></a>.</td>
   </tr>
   
   <tr style="margin-bottom: 12px;">
