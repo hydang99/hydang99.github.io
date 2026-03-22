@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a forth-year (2022-now) Ph.D student in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/), and work in [DM2 Lab](http://www.meng-jiang.com/lab.html) directed by [Prof. Meng Jiang](http://www.meng-jiang.com/). My research interests lie in the fields of Natural Language Processing and Data Mining.
+I am a fourth-year (2022-now) Ph.D student in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/), and work in [DM2 Lab](http://www.meng-jiang.com/lab.html) directed by [Prof. Meng Jiang](http://www.meng-jiang.com/). My research interests lie in the fields of Natural Language Processing and Data Mining.
 
 I received double degrees Bachelor of Science in Computer Science and Bachelor of Science in Mathematics from [Texas Christian University](https://www.tcu.edu) in December 2021. 
 
