@@ -7,17 +7,29 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a fourth-year (2022-now) Ph.D student in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/), and work in [DM2 Lab](http://www.meng-jiang.com/lab.html) directed by [Prof. Meng Jiang](http://www.meng-jiang.com/). My research interests lie in the fields of Natural Language Processing and Data Mining.
+I am a fourth-year Ph.D. student in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/), where I work in the [DM2 Lab](http://www.meng-jiang.com/lab.html) advised by [Prof. Meng Jiang](http://www.meng-jiang.com/).
 
-I received double degrees Bachelor of Science in Computer Science and Bachelor of Science in Mathematics from [Texas Christian University](https://www.tcu.edu) in December 2021. 
+My research focuses on building reliable LLM agents for real-world decision-making tasks that require multi-step reasoning over diverse sources of information. I work at the intersection of retrieval-augmented generation (RAG), tool-augmented language models (TALMs), and learning-based methods to improve agent behavior in imperfect and evolving environments.
 
+More specifically, I study two themes: designing effective tool-use strategies and reliable task-specific tools for realistic data workflows, and improving agent frameworks with learning signals such as verifiability checks, tool outcomes, and consistency constraints. My goal is to make LLM agents more correct, robust, and efficient in dynamic settings.
 
-<q>I have not failed. I've just found 10,000 ways that won't work.&#8230;</q> &#8211;Thomas A. Edison
-
+Outside research, I am very much a cat person, which means I am easily distracted by cats on the internet and in real life 🐈. I am also a proud dad of two amazing cats: Mam (Fish Sauce) and Muoi Tieu (Pepper Salt).
 
 ## ⭐ Recent News
 
+
 <table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Apr, 2026</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools</strong></a> preprint is now on arXiv.</td>
+  </tr>
+  
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745; border: none; font-size: 1em;">🎉 Mar, 2026</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">I will join <strong>Oracle</strong> as Applied Scientist Intern this Summer working with <strong>Dr. Avi Sil</strong>. See you, Redwood City!</td>
+  </tr>
+
+
   <tr style="margin-bottom: 12px;">
     <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Aug, 2025</td>
     <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2509.18076"><strong>LLM Function Calling with Templates</strong></a> (Work done during Amazon Internship) accepted at <a href="https://2025.emnlp.org/" target="_blank"><strong>EMNLP 2025 Main</strong></a>.</td>

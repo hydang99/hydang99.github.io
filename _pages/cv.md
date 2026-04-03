@@ -27,9 +27,11 @@ redirect_from:
 {% include base_path %}
 
 ## 🔬 Research Interests
-* **Information Retrieval:** Search and ranking, natural language processing for information retrieval, large language models (LLMs) for information retrieval.
+My research focuses on building reliable LLM agents for real-world decision-making tasks that require multi-step reasoning over diverse sources of information. I work at the intersection of retrieval-augmented generation (RAG), tool-augmented language models (TALMs), and learning-based methods to improve agent behavior in imperfect and evolving environments.
 
-* **Natural Language Processing:** Retrieval-augmented generation (RAG), tool-augmented language model(s) (TALM), factuality in LLMs, reinforcement learning.
+* **Tool use strategies for realistic data workflows:** Enabling LLM agents to use tools effectively for dynamic, multi-step reasoning, while designing reliable domain-specific tools that integrate into agentic frameworks for planning, acting, and validation over heterogeneous data.
+
+* **Agent framework optimization via signals and learning:** Designing task-dependent feedback signals, such as verifiability checks, tool outcomes, and consistency constraints, and using them to train or adapt agents to be more correct, robust, and efficient in realistic scenarios.
 
 ## 🎓 Education
 * **Ph.D. in Computer Science and Engineering**, University of Notre Dame, Notre Dame, IN
@@ -62,6 +64,9 @@ redirect_from:
   * Improving diversity in query expansion in document retrieval.
 
 ## 📚 Publications
+
+### Preprints
+* **Hy Dang**, Quang Dao, Meng Jiang. *Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents*. arXiv preprint, 2026.
 
 ### Conference Papers
 * **Hy Dang**, Tianyi Liu, Zhuofeng Wu, Jingfeng Yang, Haoming Jiang, Tao Yang, Pei Chen, Zhengyang Wang, Helen Wang, Huasheng Li, Bing Yin, Meng Jiang. *Improving Large Language Models Function Calling and Interpretability via Guided-Structured Templates*. The Conference on Empirical Methods in Natural Language Processing (EMNLP 2025).

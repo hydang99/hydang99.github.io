@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/hydang/workspace/projects/hydang99.github.io/assets/css -name *.scss -o -name *.css)",
+      "Bash(python3:*)"
+    ]
+  }
+}
