@@ -26,7 +26,7 @@ Outside research, I am very much a cat person, which means I am easily distracte
 
   <tr style="margin-bottom: 12px;">
     <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Apr, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><strong>Disparities in ridesharing platforms (1st-author)</strong></a> accepted at <a href="https://cscw.acm.org/2026/" target="_blank"><strong>CSCW 2026</strong></a>.</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><strong>Disparities in ridesharing platforms (1st-author)</strong> accepted at <a href="https://cscw.acm.org/2026/" target="_blank"><strong>CSCW 2026</strong></a>.</td>
   </tr>
   
   <tr style="margin-bottom: 12px;">
