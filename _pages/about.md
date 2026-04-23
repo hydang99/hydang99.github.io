@@ -23,6 +23,11 @@ Outside research, I am very much a cat person, which means I am easily distracte
     <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Apr, 2026</td>
     <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools</strong></a> preprint is now on arXiv.</td>
   </tr>
+
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Apr, 2026</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2604.00137"><strong>first author paper - Disparities in ridesharing platforms</strong></a> accepted at <a href="https://cscw.acm.org/2026/" target="_blank"><strong>CSCW 2026</strong></a>.</td>
+  </tr>
   
   <tr style="margin-bottom: 12px;">
     <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745; border: none; font-size: 1em;">🎉 Mar, 2026</td>
@@ -32,7 +37,7 @@ Outside research, I am very much a cat person, which means I am easily distracte
 
   <tr style="margin-bottom: 12px;">
     <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Aug, 2025</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2509.18076"><strong>LLM Function Calling with Templates</strong></a> (Work done during Amazon Internship) accepted at <a href="https://2025.emnlp.org/" target="_blank"><strong>EMNLP 2025 Main</strong></a>.</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2509.18076"><strong>first author paper - LLM Function Calling with Templates</strong></a> (Work done during Amazon Internship) accepted at <a href="https://2025.emnlp.org/" target="_blank"><strong>EMNLP 2025 Main</strong></a>.</td>
   </tr>
   
   <tr style="margin-bottom: 12px;">
