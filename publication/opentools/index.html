@@ -1,0 +1,109 @@
+---
+layout: project
+permalink: /publication/opentools/
+title: "OpenTools Project Page"
+---
+
+<section class="page__content" style="max-width: 980px; margin: 0 auto;">
+  <h1>Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents</h1>
+  <p>
+    <strong>Authors:</strong> Hy Dang, Quang Dao, Meng Jiang<br>
+    <strong>Venue:</strong> Preprint (arXiv 2026)
+  </p>
+
+  <p style="margin-top: 12px;">
+    <a href="https://arxiv.org/abs/2604.00137" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 16px;margin:4px 8px 4px 0;background:#059669;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;">Paper</a>
+    <a href="https://github.com/hydang99/opentools" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 16px;margin:4px 8px 4px 0;background:#111827;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;">GitHub</a>
+    <a href="https://huggingface.co/spaces/opentools/opentools" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 16px;margin:4px 8px 4px 0;background:#2563eb;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;">Live Demo</a>
+    <a href="/blogs/opentools-community-driven-tool-agents/" style="display:inline-block;padding:10px 16px;margin:4px 8px 4px 0;background:#7c3aed;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;">Blog Post</a>
+  </p>
+
+  <h2 style="margin-top: 28px;">TL;DR</h2>
+  <p>
+    Tool-using LLM agents often fail for two different reasons: tool-use accuracy (how well an agent invokes a tool)
+    and intrinsic tool accuracy (whether the tool itself is correct and stable). OpenTools focuses on both.
+  </p>
+  <ul>
+    <li>Standardizes tool schemas for plug-and-play use across agent frameworks.</li>
+    <li>Continuously evaluates intrinsic tool reliability with evolving test suites.</li>
+    <li>Provides a public web demo where users can run tools/agents and contribute failure-driven tests.</li>
+  </ul>
+
+  <h2 style="margin-top: 28px;">Demo Video</h2>
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:10px 0;">
+    <iframe src="https://www.youtube.com/embed/MXVyDvXzh_o" title="OpenTools System Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  </div>
+
+  <h2 style="margin-top: 28px;">Why OpenTools?</h2>
+  <p>
+    LLM agents are increasingly powerful, but real-world reliability still lags behind expectations. Improving only
+    the agent policy is not enough when tools drift, break, or silently return unstable outputs.
+  </p>
+  <blockquote style="border-left:4px solid #ddd; margin: 10px 0; padding: 6px 14px;">
+    Reliable agents require both good tool orchestration and reliable tools.
+  </blockquote>
+
+  <h2 style="margin-top: 28px;">Abstract</h2>
+  <p>
+    Tool-integrated LLMs can retrieve, compute, and take real-world actions through external tools, but reliability remains a major bottleneck.
+    OpenTools separates two failure modes: tool-use accuracy (how well agents invoke tools) and intrinsic tool accuracy (whether tools are correct and stable).
+    The framework standardizes tool schemas, supports lightweight wrappers, provides continuous tool evaluation with community-contributed test suites,
+    and exposes a public web demo for running agents/tools and contributing feedback.
+  </p>
+
+  <h2 style="margin-top: 28px;">Framework Overview</h2>
+  <img src="/images/blogs/opentools/framework-overview.png" alt="OpenTools framework overview" style="width:100%; border-radius:8px;">
+  <p style="font-size:0.95em; color:#555; margin-top:8px;">
+    OpenTools connects a maintenance loop (tool evaluation, test updates, reliability tracking) with an agentic execution loop (query, tool calls, logs, final answer).
+  </p>
+  <p>
+    The top half of the framework emphasizes community contribution and verifier-driven curation for tools and tests,
+    while the bottom half captures end-to-end agent execution with transparent tool/reasoning traces.
+  </p>
+
+  <h2 style="margin-top: 28px;">Core Idea: Two Complementary Workflows</h2>
+  <ol>
+    <li>
+      <strong>Tool Accuracy / Maintenance Loop</strong>
+      <ul>
+        <li>Unifies tool descriptions, JSON argument schemas, and output contracts.</li>
+        <li>Runs standardized evaluations (exact/pattern/tolerance/semantic checks).</li>
+        <li>Tracks reliability, availability, and regressions over time.</li>
+        <li>Continuously expands coverage with community-contributed tests/tools.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Agentic Workflow</strong>
+      <ul>
+        <li>Supports multiple agent policies (ReAct, OctoTools-style, MultiAgent, and custom).</li>
+        <li>Validates tool arguments and records structured traces during execution.</li>
+        <li>Produces transparent outputs for reproducibility and debugging.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h2 style="margin-top: 28px;">Main Results</h2>
+  <img src="/images/blogs/opentools/results-table1-cropped.png" alt="OpenTools Table 1 results" style="width:100%; border-radius:8px;">
+  <p style="font-size:0.95em; color:#555; margin-top:8px;">
+    Better intrinsic tool quality and broader tool coverage provide consistent gains across frameworks and task categories.
+  </p>
+  <ul>
+    <li>OpenTools shows relative gains in the 6%-22% range across settings.</li>
+    <li>Improvements are especially strong on harder agentic tasks requiring external actions.</li>
+    <li>Even strong base LLMs benefit from better tools; weaker models benefit even more.</li>
+  </ul>
+
+  <h2 style="margin-top: 28px;">What Matters Most</h2>
+  <ul>
+    <li><strong>Separation of concerns:</strong> tools and agent policies can evolve independently.</li>
+    <li><strong>Community maintenance:</strong> test suites should evolve from real observed failures.</li>
+    <li><strong>Reproducible infrastructure:</strong> standardized interfaces plus structured logs enable reliable iteration.</li>
+  </ul>
+
+  <h2 style="margin-top: 28px;">Looking Ahead</h2>
+  <ul>
+    <li>Expand domain-specific tool coverage in science, medicine, and engineering.</li>
+    <li>Strengthen stress tests and regression tracking for API and dependency drift.</li>
+    <li>Keep pace with emerging agent architectures using common tool standards.</li>
+  </ul>
+</section>

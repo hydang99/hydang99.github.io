@@ -6,8 +6,10 @@ date: 2026-03-31
 venue: "Preprint"
 categories: [Publication]
 tags: [LLM, Agent, Tools]
-title_link: https://arxiv.org/abs/2604.00137
-arxiv: https://arxiv.org/abs/2604.00137
+excerpt: "Project Page."
+link: /publication/opentools/
+title_link: /publication/opentools/
 paper_link: https://arxiv.org/abs/2604.00137
+arxiv: https://arxiv.org/abs/2604.00137
 authors: "Hy Dang, Quang Dao, Meng Jiang"
 ---
