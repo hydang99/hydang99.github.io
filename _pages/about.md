@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a fourth-year Ph.D. student in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/), where I work in the [DM2 Lab](http://www.meng-jiang.com/lab.html) advised by [Prof. Meng Jiang](http://www.meng-jiang.com/).
+I am a Ph.D. candidate in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/), where I work in the [DM2 Lab](http://www.meng-jiang.com/lab.html) advised by [Prof. Meng Jiang](http://www.meng-jiang.com/).
 
 My research focuses on building reliable LLM agents for real-world decision-making tasks that require multi-step reasoning over diverse sources of information. I work at the intersection of retrieval-augmented generation (RAG), tool-augmented language models (TALMs), and learning-based methods to improve agent behavior in imperfect and evolving environments.
 
@@ -16,6 +16,10 @@ More specifically, I study two themes: designing effective tool-use strategies a
 Outside research, I am very much a cat person, which means I am easily distracted by cats on the internet and in real life 🐈. I am also a proud dad of two amazing cats: Mam (Fish Sauce) and Muoi Tieu (Pepper Salt).
 
 ## ⭐ Recent News
+  <tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745; border: none; font-size: 1em;">🎉 June, 2026</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">I passed my Oral Candidancy Exam (OCE) and officially become PhD Candidate. The thesis title is:  <strong>Towards Reliable Tool-Augmented Agentic AI Frameworks</strong>. Thank a lot for my committee members, <strong>Dr. Meng Jiang, Dr. Toby Li, Dr. Zhi Zheng and Dr. Avi Sil.</strong></td>
+  </tr>
 
 
 <table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
