@@ -14,61 +14,52 @@ My research focuses on building reliable LLM agents for real-world decision-maki
 More specifically, I study two themes: designing effective tool-use strategies and reliable task-specific tools for realistic data workflows, and improving agent frameworks with learning signals such as verifiability checks, tool outcomes, and consistency constraints. My goal is to make LLM agents more correct, robust, and efficient in dynamic settings.
 
 Outside research, I am very much a cat person, which means I am easily distracted by cats on the internet and in real life 🐈. I am also a proud dad of two amazing cats: Mam (Fish Sauce) and Muoi Tieu (Pepper Salt).
-
 ## ⭐ Recent News
 
 <table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
-<tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Aug, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools (1st-author)</strong></a> is accepted at <a href="https://2026.emnlp.org/" target="_blank"><strong>EMNLP 2026 (Demo Track)</strong></a> 🎉!
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 Aug, 2026</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools (1st-author)</strong></a> is accepted at <a href="https://2026.emnlp.org/" target="_blank"><strong>EMNLP 2026 (Demo Track)</strong></a> 🎉!</td>
   </tr>
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745; border: none; font-size: 1em;">🎉 June, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">I passed my Oral Candidancy Exam (OCE) and officially become PhD Candidate. The thesis title is:  <strong>Towards Reliable Tool-Augmented Agentic AI Frameworks</strong>. Thank a lot for my committee members, <strong>Dr. Meng Jiang, Dr. Toby Li, Dr. Zhi Zheng and Dr. Avi Sil.</strong></td>
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745;">🎉 June, 2026</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;">I passed my Oral Candidacy Exam (OCE) and officially became a PhD candidate. My thesis title is <strong>Towards Reliable Tool-Augmented Agentic AI Frameworks</strong>. Thank you to my committee members: <strong>Dr. Meng Jiang, Dr. Toby Li, Dr. Zhi Zheng, and Dr. Avi Sil.</strong></td>
   </tr>
-
-
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Apr, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><strong>Disparities in ridesharing platforms (1st-author)</strong> accepted at <a href="https://cscw.acm.org/2026/" target="_blank"><strong>CSCW 2026</strong></a>.</td>
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 Apr, 2026</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><strong>Disparities in ridesharing platforms (1st-author)</strong> accepted at <a href="https://cscw.acm.org/2026/" target="_blank"><strong>CSCW 2026</strong></a>.</td>
   </tr>
-  
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745; border: none; font-size: 1em;">🎉 Mar, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">I will join <strong>Oracle</strong> as Applied Scientist Intern this Summer working with <strong>Dr. Avi Sil</strong>. See you, Redwood City!</td>
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745;">🎉 Mar, 2026</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;">I will join <strong>Oracle</strong> as an Applied Scientist Intern this summer, working with <strong>Dr. Avi Sil</strong>. See you in Redwood City!</td>
   </tr>
-
-
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Aug, 2025</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2509.18076"><strong>LLM Function Calling with Templates (1st-author)</strong></a> (Work done during Amazon Internship) accepted at <a href="https://2025.emnlp.org/" target="_blank"><strong>EMNLP 2025 Main</strong></a>.</td>
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 Aug, 2025</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><a href="https://arxiv.org/abs/2509.18076"><strong>LLM Function Calling with Templates (1st-author)</strong></a> (work completed during my Amazon internship) accepted at <a href="https://2025.emnlp.org/" target="_blank"><strong>EMNLP 2025 Main</strong></a>.</td>
   </tr>
-  
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 May, 2025</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2503.15354"><strong>DYDECOMP</strong></a> paper accepted at <a href="https://2025.aclweb.org/" target="_blank"><strong>ACL 2025 Main</strong></a>.</td>
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 May, 2025</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><a href="https://arxiv.org/abs/2503.15354"><strong>DYDECOMP</strong></a> paper accepted at <a href="https://2025.aclweb.org/" target="_blank"><strong>ACL 2025 Main</strong></a>.</td>
   </tr>
-  
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745; border: none; font-size: 1em;">🎉 Aug, 2024</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">Happy to announce that I will join <strong>Amazon</strong> as Applied Scientist Intern starting in September! See everyone in Palo Alto soon!</td>
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745;">🎉 Aug, 2024</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;">Happy to announce that I will join <strong>Amazon</strong> as an Applied Scientist Intern starting in September! See everyone in Palo Alto soon!</td>
   </tr>
-  
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 May, 2023</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://aclanthology.org/2023.codi-1.22.pdf"><strong>Community Recommendation Using Mental Helath Discourse</strong></a> Paper accepted at <a href="https://sites.google.com/view/codi-2023/" target="_blank"><strong>CODI 2023 - ACL 2023</strong></a></td>
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 May, 2023</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><a href="https://aclanthology.org/2023.codi-1.22.pdf"><strong>Community Recommendation Using Mental Health Discourse</strong></a> paper accepted at <a href="https://sites.google.com/view/codi-2023/" target="_blank"><strong>CODI 2023 – ACL 2023</strong></a>.</td>
   </tr>
-  
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #ffc110; border: none; font-size: 1em;">🎓 Aug, 2022</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">Joined <strong>University of Notre Dame</strong> as a PhD student in Computer Science & Engineering under the supervision of <a href="http://www.meng-jiang.com/" target="_blank"><strong>Prof. Meng Jiang</strong></a>. Go Irish ☘️.</td>
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #ffc110;">🎓 Aug, 2022</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;">Joined <strong>University of Notre Dame</strong> as a PhD student in Computer Science &amp; Engineering under the supervision of <a href="http://www.meng-jiang.com/" target="_blank"><strong>Prof. Meng Jiang</strong></a>. Go Irish ☘️.</td>
   </tr>
-  
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #ffc110; border: none; font-size: 1em;">🎓 Dec, 2021</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">Graduated with <strong>4.0 GPA (Summa Cum Laude)</strong> with double degrees in Computer Science and Mathematics from <strong>Texas Christian University</strong>.</td>
+  <tr>
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #ffc110;">🎓 Dec, 2021</td>
+    <td style="vertical-align: top; padding: 6px 0 6px 20px;">Graduated with a <strong>4.0 GPA (Summa Cum Laude)</strong> and double degrees in Computer Science and Mathematics from <strong>Texas Christian University</strong>.</td>
   </tr>
 </table>
+
+## 📃 Publications
 
 <!-- **📝 Quick Add News:** To add new updates like "Paper accepted at EMNLP 2024!", simply edit this section and add a new entry with the format:
 ```
