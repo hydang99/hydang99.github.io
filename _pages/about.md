@@ -16,17 +16,16 @@ More specifically, I study two themes: designing effective tool-use strategies a
 Outside research, I am very much a cat person, which means I am easily distracted by cats on the internet and in real life 🐈. I am also a proud dad of two amazing cats: Mam (Fish Sauce) and Muoi Tieu (Pepper Salt).
 
 ## ⭐ Recent News
+<tr style="margin-bottom: 12px;">
+    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Apr, 2026</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools is accepted at EMNLP 2026 (Demo Track) 🎉!</strong></a> preprint is now on arXiv.</td>
+  </tr>
+<table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
   <tr style="margin-bottom: 12px;">
     <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745; border: none; font-size: 1em;">🎉 June, 2026</td>
     <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;">I passed my Oral Candidancy Exam (OCE) and officially become PhD Candidate. The thesis title is:  <strong>Towards Reliable Tool-Augmented Agentic AI Frameworks</strong>. Thank a lot for my committee members, <strong>Dr. Meng Jiang, Dr. Toby Li, Dr. Zhi Zheng and Dr. Avi Sil.</strong></td>
   </tr>
 
-
-<table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
-  <tr style="margin-bottom: 12px;">
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Apr, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools</strong></a> preprint is now on arXiv.</td>
-  </tr>
 
   <tr style="margin-bottom: 12px;">
     <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Apr, 2026</td>
