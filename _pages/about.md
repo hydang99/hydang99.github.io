@@ -18,7 +18,7 @@ Outside research, I am very much a cat person, which means I am easily distracte
 ## ⭐ Recent News
 <tr style="margin-bottom: 12px;">
     <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff; border: none; font-size: 1em;">📄 Apr, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools is accepted at EMNLP 2026 (Demo Track) 🎉!</strong></a> preprint is now on arXiv.</td>
+    <td style="vertical-align: top; padding: 6px 0; padding-left: 20px; border: none; font-size: 1em;"><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools (1st-author) is accepted at EMNLP 2026 (Demo Track) 🎉!</strong></a> preprint is now on arXiv.</td>
   </tr>
 <table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
   <tr style="margin-bottom: 12px;">
