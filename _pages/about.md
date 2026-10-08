@@ -9,62 +9,57 @@ redirect_from:
 ---
 I am a Ph.D. candidate in Computer Science and Engineering at [Notre Dame](https://www.nd.edu/), where I work in the [DM2 Lab](http://www.meng-jiang.com/lab.html) advised by [Prof. Meng Jiang](http://www.meng-jiang.com/).
 
-My research focuses on building reliable LLM agents for real-world decision-making tasks that require multi-step reasoning over diverse sources of information. I work at the intersection of retrieval-augmented generation (RAG), tool-augmented language models (TALMs), and learning-based methods to improve agent behavior in imperfect and evolving environments.
+My research focuses on building reliable and self-improving LLM agents capable of complex, multi-step reasoning and decision-making. I investigate how agents can effectively use and create tools, learn from experience, and autonomously evolve their capabilities.
 
-More specifically, I study two themes: designing effective tool-use strategies and reliable task-specific tools for realistic data workflows, and improving agent frameworks with learning signals such as verifiability checks, tool outcomes, and consistency constraints. My goal is to make LLM agents more correct, robust, and efficient in dynamic settings.
+My work centers on two directions: **tool-augmented agents**, including effective tool use and reliable tool construction, and **self-improving agents** that acquire and refine reusable skills through feedback and experience.
 
 Outside research, I am very much a cat person, which means I am easily distracted by cats on the internet and in real life 🐈. I am also a proud dad of two amazing cats: Mam (Fish Sauce) and Muoi Tieu (Pepper Salt).
+
 ## ⭐ Recent News
 
-<table style="width: 100%; border-collapse: collapse; border: none; font-size: 1em;">
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 Aug, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools (1st-author)</strong></a> is accepted at <a href="https://2026.emnlp.org/" target="_blank"><strong>EMNLP 2026 (Demo Track)</strong></a> 🎉!</td>
-  </tr>
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745;">🎉 June, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;">I passed my Oral Candidacy Exam (OCE) and officially became a PhD candidate. My thesis title is <strong>Towards Reliable Tool-Augmented Agentic AI Frameworks</strong>. Thank you to my committee members: <strong>Dr. Meng Jiang, Dr. Toby Li, Dr. Zhi Zheng, and Dr. Avi Sil.</strong></td>
-  </tr>
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 Apr, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><strong>Disparities in ridesharing platforms (1st-author)</strong> accepted at <a href="https://cscw.acm.org/2026/" target="_blank"><strong>CSCW 2026</strong></a>.</td>
-  </tr>
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745;">🎉 Mar, 2026</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;">I will join <strong>Oracle</strong> as an Applied Scientist Intern this summer, working with <strong>Dr. Avi Sil</strong>. See you in Redwood City!</td>
-  </tr>
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 Aug, 2025</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><a href="https://arxiv.org/abs/2509.18076"><strong>LLM Function Calling with Templates (1st-author)</strong></a> (work completed during my Amazon internship) accepted at <a href="https://2025.emnlp.org/" target="_blank"><strong>EMNLP 2025 Main</strong></a>.</td>
-  </tr>
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 May, 2025</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><a href="https://arxiv.org/abs/2503.15354"><strong>DYDECOMP</strong></a> paper accepted at <a href="https://2025.aclweb.org/" target="_blank"><strong>ACL 2025 Main</strong></a>.</td>
-  </tr>
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #28a745;">🎉 Aug, 2024</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;">Happy to announce that I will join <strong>Amazon</strong> as an Applied Scientist Intern starting in September! See everyone in Palo Alto soon!</td>
-  </tr>
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #007bff;">📄 May, 2023</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;"><a href="https://aclanthology.org/2023.codi-1.22.pdf"><strong>Community Recommendation Using Mental Health Discourse</strong></a> paper accepted at <a href="https://sites.google.com/view/codi-2023/" target="_blank"><strong>CODI 2023 – ACL 2023</strong></a>.</td>
-  </tr>
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #ffc110;">🎓 Aug, 2022</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;">Joined <strong>University of Notre Dame</strong> as a PhD student in Computer Science &amp; Engineering under the supervision of <a href="http://www.meng-jiang.com/" target="_blank"><strong>Prof. Meng Jiang</strong></a>. Go Irish ☘️.</td>
-  </tr>
-  <tr>
-    <td style="width: 140px; vertical-align: top; padding: 6px 0; font-weight: bold; color: #ffc110;">🎓 Dec, 2021</td>
-    <td style="vertical-align: top; padding: 6px 0 6px 20px;">Graduated with a <strong>4.0 GPA (Summa Cum Laude)</strong> and double degrees in Computer Science and Mathematics from <strong>Texas Christian University</strong>.</td>
-  </tr>
-</table>
+<div class="recent-news" role="list">
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #28a745;">🎉 Sep, 2026</span>
+    <span>I completed an <strong>Applied Scientist internship at Oracle</strong> in Redwood City, working on skill evolution for LLM agents.</span>
+  </div>
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #007bff;">📄 Aug, 2026</span>
+    <span><a href="https://arxiv.org/abs/2604.00137"><strong>OpenTools (first author)</strong></a> was accepted to <a href="https://2026.emnlp.org/"><strong>EMNLP 2026 Demo Track</strong></a>.</span>
+  </div>
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #28a745;">🎉 Jun, 2026</span>
+    <span>I passed my Oral Candidacy Exam and became a Ph.D. candidate. My thesis is titled <strong>Towards Reliable Tool-Augmented Agentic AI Frameworks</strong>. Thank you to my committee: Dr. Meng Jiang, Dr. Toby Li, Dr. Zhi Zheng, and Dr. Avi Sil.</span>
+  </div>
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #007bff;">📄 Apr, 2026</span>
+    <span><a href="https://arxiv.org/abs/2502.08893"><strong>Uncovering Disparities in Rideshare Drivers’ Earning and Work Patterns</strong></a> (first author) was accepted to <a href="https://cscw.acm.org/2026/"><strong>CSCW 2026</strong></a>.</span>
+  </div>
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #007bff;">📄 Aug, 2025</span>
+    <span><a href="https://arxiv.org/abs/2509.18076"><strong>LLM Function Calling with Templates</strong></a>, completed during my Amazon internship, was accepted to <a href="https://2025.emnlp.org/"><strong>EMNLP 2025 Main</strong></a>.</span>
+  </div>
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #007bff;">📄 May, 2025</span>
+    <span><a href="https://arxiv.org/abs/2503.15354"><strong>DYDECOMP</strong></a> was accepted to <a href="https://2025.aclweb.org/"><strong>ACL 2025 Main</strong></a>.</span>
+  </div>
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #28a745;">🎉 Sep, 2024</span>
+    <span>I joined <strong>Amazon Rufus</strong> as an Applied Scientist Intern in Palo Alto (September 2024–May 2025).</span>
+  </div>
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #007bff;">📄 May, 2023</span>
+    <span><a href="https://aclanthology.org/2023.codi-1.22.pdf"><strong>Community Recommendation Using Mental Health Discourse</strong></a> was accepted to <a href="https://sites.google.com/view/codi-2023/"><strong>CODI at ACL 2023</strong></a>.</span>
+  </div>
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #b8860b;">🎓 Aug, 2022</span>
+    <span>I joined the University of Notre Dame as a Ph.D. student in Computer Science and Engineering, advised by <a href="http://www.meng-jiang.com/"><strong>Prof. Meng Jiang</strong></a>.</span>
+  </div>
+  <div class="recent-news__item" role="listitem">
+    <span class="recent-news__date" style="color: #b8860b;">🎓 Dec, 2021</span>
+    <span>I graduated from Texas Christian University with degrees in Computer Science and Mathematics and a 4.0 GPA.</span>
+  </div>
+</div>
 
-## 📃 Publications
-
-<!-- **📝 Quick Add News:** To add new updates like "Paper accepted at EMNLP 2024!", simply edit this section and add a new entry with the format:
-```
-<strong style="color: #007bff;">📄 2024-XX-XX</strong> - Paper accepted at <strong>EMNLP 2024</strong>!
-``` -->
 ## 📃 Publications
 
 {% include publications-cards.html limit=6 %}

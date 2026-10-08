@@ -3,13 +3,16 @@ title: "OpenTools: Open, Reliable, and Collective Tool-Using AI Agents"
 permalink: /blogs/opentools-community-driven-tool-agents/
 layout: single
 date: 2026-05-03
+last_modified_at: 2026-10-08
 author_profile: true
 categories: [Blog]
 tags: [LLM, Agents, Tools, Reliability, OpenTools]
-excerpt: "OpenTools is a community-driven framework for tool-using LLM agents that separates tool-use accuracy from intrinsic tool accuracy and improves downstream performance through standardized tools and continuous evaluation."
+excerpt: "OpenTools is a community-driven toolbox for reliable LLM agents, with standardized tool interfaces, reviewable contributions, risk-aware evaluation, and controlled tool access."
 author: "Hy Dang"
-read_time: "9 minutes"
+read_time: "5 minutes"
 ---
+
+*Updated October 2026 to reflect the latest arXiv version and OpenTools' acceptance to the EMNLP 2026 Demo Track.*
 
 ## TL;DR
 
@@ -20,18 +23,18 @@ Tool-using LLM agents often fail for two different reasons:
 Most prior work focuses on the first issue. In our OpenTools project, we focus on both.
 
 OpenTools introduces a community-driven framework that:
-- standardizes tool schemas for plug-and-play use across agent frameworks,
-- continuously evaluates intrinsic tool reliability with evolving test suites,
-- and provides a public web demo for running tools/agents and contributing failure-driven test cases.
+- converts documented Python functions into standardized, reviewable tool bundles,
+- inspects submitted code without executing it and gives maintainers evidence for evaluation and review,
+- and provides a public demo for running tools and agents, inspecting evidence, and contributing tests.
 
-Across multiple agent architectures and benchmarks, better tool quality from OpenTools leads to **consistent performance gains** over a strong toolbox baseline.
+In the paper's evaluation, the OpenTools toolbox improves the overall average across three agent frameworks over the OctoTools toolbox. The comparison captures both broader tool coverage and tool quality.
 
 ## Links
 
 - Paper (arXiv): [Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents](https://arxiv.org/abs/2604.00137)
 - Code: [github.com/hydang99/opentools](https://github.com/hydang99/opentools)
 - Web demo: [huggingface.co/spaces/opentools/opentools](https://huggingface.co/spaces/opentools/opentools)
-- Demo video: [YouTube walkthrough](https://www.youtube.com/watch?v=MXVyDvXzh_o)
+- Demo video: [YouTube walkthrough](https://www.youtube.com/watch?v=ORH-DKfJF-k)
 
 <p>
   <a href="https://huggingface.co/spaces/opentools/opentools" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 16px;margin:4px 8px 4px 0;background:#2563eb;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;">Try Live Demo</a>
@@ -42,57 +45,57 @@ Across multiple agent architectures and benchmarks, better tool quality from Ope
 ## Demo Video
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:10px 0;">
-  <iframe src="https://www.youtube.com/embed/MXVyDvXzh_o" title="OpenTools System Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  <iframe src="https://www.youtube.com/embed/ORH-DKfJF-k" title="OpenTools System Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 
 ## Why OpenTools?
 
-LLM agents are increasingly powerful, but real-world reliability still lags behind expectations. In practice, improving only the agent policy is not enough when tools can drift, break, or silently return unstable outputs.
+An agent can select the right tool and still fail if the tool is unavailable, unstable, or wrong. APIs and dependencies change, and contributed code can introduce security or credential risks. Reliable tool use therefore requires a way to inspect, test, and maintain the tools themselves.
 
 OpenTools is designed around a simple idea:
 > Reliable agents require both good tool orchestration **and** reliable tools.
 
-This perspective motivates a framework that treats intrinsic tool quality as a first-class object to build, evaluate, and maintain over time.
+This motivates a framework that treats intrinsic tool reliability as something to assess and maintain over time.
 
 ## Core Idea: Two Complementary Workflows
 
 The OpenTools framework has two linked workflows:
 
 1. **Tool Accuracy / Maintenance Loop**
-   - Standardize each tool with a unified interface (description, JSON argument schema, output contract).
-   - Evaluate tools with test suites using exact/pattern/tolerance/semantic checks.
-   - Track availability, regression, and reliability metrics over time.
-   - Let the community contribute new tests and tools to continuously expand coverage.
+   - Standardize tool descriptions, typed JSON schemas, output contracts, and tool cards.
+   - Convert supported documented Python functions into wrappers and review bundles without executing them.
+   - Inspect submitted source and potential secrets before policy-gated functional tests. An optional LLM advisor reviews sanitized evidence.
+   - Have maintainers review submissions, run selected evaluations locally, and update the shared toolbox and reliability records.
 
 2. **Agentic Workflow**
-   - Expose selected tools to an agent (ReAct, OctoTools-style, MultiAgent, or user-defined).
-   - Execute tool calls with schema validation and structured tracing.
-   - Return final answers with transparent logs for debugging and reproducibility.
+   - Expose selected tools to ReAct, OctoTools, MultiAgent, or user-defined agents.
+   - Provide controlled tool discovery and access through MCP for external applications.
+   - Validate arguments and record tool calls, observations, errors, and final answers for debugging and reproducibility.
 
-These two workflows are connected: reliability signals from the maintenance loop can inform what tools agents should trust and prioritize.
+The public demo exposes both workflows: visitors can inspect tool cards and recorded evaluations, run supported tools and agents, and submit candidate tests. A contributor can upload an open-source Python tool and README for conversion and non-executing inspection. The hosted submission flow returns a pending-review bundle; it does not run or publish the uploaded code.
 
 ## What the Figure Highlights
 
-The system figure in the paper captures a closed loop:
-- top half: community contributions + verifier-driven curation + tool evaluation refresh,
-- bottom half: user query -> agent planning -> tool execution -> answer + logs.
+The updated system figure captures two connected workflows:
+- top half: contributions, non-executing tool scanning, optional LLM advice, human review, and selected reevaluation;
+- bottom half: user query, agent planning, tool execution, final answer, and execution logs.
 
-In short, OpenTools is not just a toolbox; it is a **tool reliability lifecycle**.
+The distinction matters: scanner findings and LLM advice support a maintainer's decision, but neither automatically accepts a tool or certifies its safety.
 
-<img src="{{ site.baseurl }}/images/blogs/opentools/framework-overview.png" width="100%">
+<img src="{{ site.baseurl }}/images/blogs/opentools/framework-overview-v2.png" width="100%" alt="OpenTools framework overview with tool scanning, human review, and agent execution">
 
-*Figure: OpenTools framework overview with the maintenance loop (top) and agentic workflow (bottom).*
+*Figure 1 from the [latest arXiv version](https://arxiv.org/abs/2604.00137): tool maintenance and review (top) and agentic use (bottom).*
 
 ## Main Experimental Takeaway
 
-We compare OpenTools toolbox variants against a strong existing toolbox across diverse tasks (VQA/puzzle, math, science, medical, and agentic tasks) and multiple agent frameworks.
+The paper compares a 42-tool OpenTools toolbox with the 13-tool OctoTools toolbox across VQA/puzzle, math/reasoning, scientific, medical, and agent tasks. It evaluates ReAct, OctoTools, and MultiAgent policies with fixed base models.
 
 Key outcome:
-- Better intrinsic tool quality and broader task-specific tool coverage produce **consistent downstream gains**.
-- Reported relative improvements are in the **6%-22% range** across settings.
-- Gains are especially strong on harder agentic tasks that require robust external actions.
+- The OpenTools toolbox improves the **overall average** for each evaluated agent framework in the reported settings.
+- The reported overall relative gains are approximately **5%–22%**, depending on framework and model.
+- The largest task-group gains are on tool-intensive agent tasks. The experiment changes both toolbox coverage and quality, so it does not isolate either factor's effect.
 
-This reinforces a practical lesson: even strong base LLMs benefit from better tools, and weaker LLMs benefit even more.
+The results show why the toolbox matters alongside the agent policy, especially when tasks require external actions.
 
 <img src="{{ site.baseurl }}/images/blogs/opentools/results-table1-cropped.png" width="100%">
 
@@ -102,16 +105,12 @@ This reinforces a practical lesson: even strong base LLMs benefit from better to
 
 Three practical implications stand out:
 
-- **Separation of concerns is powerful**: tool maintenance can evolve independently from agent policy design.
-- **Community feedback is essential**: test suites should be living artifacts that grow from real failures.
-- **Reproducibility needs infrastructure**: standardized interfaces + structured logs + continuous checks make progress measurable.
+- **Separate tool maintenance from agent decisions**: the same standardized tools can be used by different agent policies.
+- **Keep contributions reviewable**: source inspection, test evidence, and human acceptance make community updates accountable.
+- **Record what happened**: tool and reasoning traces help distinguish agent-side mistakes from tool-side failures.
 
 ## Looking Ahead
 
-OpenTools is still growing. Important next directions include:
-- adding more domain-specific tools (science, medicine, engineering),
-- expanding stress tests and regression monitoring for API drift,
-- and keeping compatibility with new agent architectures as they emerge.
+The paper identifies more domain-specific tools and regression tests, stronger isolated and long-term evaluation, and community maintenance at scale as next steps. Risk inspection and advisory LLM review provide evidence, not guarantees of correctness or safety.
 
 If you are building or evaluating tool-using AI agents, I would love to hear your feedback and potential collaboration ideas.
-

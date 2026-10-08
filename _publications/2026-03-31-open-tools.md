@@ -3,7 +3,7 @@ title: "Open, Reliable, and Collective: A Community-Driven Framework for Tool-Us
 collection: publications
 layout: single
 date: 2026-03-31
-venue: "Preprint"
+venue: "EMNLP 2026 Demo Track"
 categories: [Publication]
 tags: [LLM, Agent, Tools]
 excerpt: "Project Page."

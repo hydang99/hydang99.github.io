@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hy Dang's Homepage"
 title_separator          : "-"
 name                     : &name "Hy Dang"
-description              : &description "PhD student at University of Notre Dame"
+description              : &description "Ph.D. candidate in Computer Science and Engineering at the University of Notre Dame"
 url                      : https://hydang99.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hydang99.github.io"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Hy Dang"
   avatar           : "hy_dang_headshot.png"
-  bio              : "Ph.D Student in Computer Science & Engineering "
+  bio              : "Ph.D. candidate in Computer Science & Engineering"
   location         : "Notre Dame, IN"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
