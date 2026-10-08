@@ -75,7 +75,7 @@ My research focuses on building reliable and self-improving LLM agents capable o
 ### Conference Papers
 * **Hy Dang**, Quang Dao, Meng Jiang. *Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents*. Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP 2026 Demo Track). [Paper](https://arxiv.org/abs/2604.00137) · [Project page](/publication/opentools/)
 
-* **Hy Dang**, Yuwen Lu, Jason Spicer, Tamara Kay, Di Yang, Yang Yang, Jay Brockman, Meng Jiang, and Toby Jia-Jun Li. *Uncovering Disparities in Rideshare Drivers’ Earning and Work Patterns: A Case Study of Chicago*. Proceedings of the ACM on Human-Computer Interaction (CSCW 2026). [Paper](https://arxiv.org/abs/2502.08893)
+* **Hy Dang**, Yuwen Lu, Jason Spicer, Tamara Kay, Di Yang, Yang Yang, Jay Brockman, Meng Jiang, and Toby Jia-Jun Li. *Uncovering Disparities in Rideshare Drivers’ Earning and Work Patterns: A Case Study of Chicago*. Proceedings of the ACM on Human-Computer Interaction (CSCW 2026). [Paper](https://dl.acm.org/doi/full/10.1145/3817023)
 
 * **Hy Dang**, Tianyi Liu, Zhuofeng Wu, Jingfeng Yang, Haoming Jiang, Tao Yang, Pei Chen, Zhengyang Wang, Helen Wang, Huasheng Li, Bing Yin, Meng Jiang. *Improving Large Language Models Function Calling and Interpretability via Guided-Structured Templates*. The Conference on Empirical Methods in Natural Language Processing (EMNLP 2025).
 

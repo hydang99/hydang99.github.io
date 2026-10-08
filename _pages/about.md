@@ -32,7 +32,7 @@ Outside research, I am very much a cat person, which means I am easily distracte
   </div>
   <div class="recent-news__item" role="listitem">
     <span class="recent-news__date" style="color: #007bff;">📄 Apr, 2026</span>
-    <span><a href="https://arxiv.org/abs/2502.08893"><strong>Uncovering Disparities in Rideshare Drivers’ Earning and Work Patterns</strong></a> (first author) was accepted to <a href="https://cscw.acm.org/2026/"><strong>CSCW 2026</strong></a>.</span>
+    <span><a href="https://dl.acm.org/doi/full/10.1145/3817023"><strong>Uncovering Disparities in Rideshare Drivers’ Earning and Work Patterns</strong></a> (first author) was accepted to <a href="https://cscw.acm.org/2026/"><strong>CSCW 2026</strong></a>.</span>
   </div>
   <div class="recent-news__item" role="listitem">
     <span class="recent-news__date" style="color: #007bff;">📄 Aug, 2025</span>
