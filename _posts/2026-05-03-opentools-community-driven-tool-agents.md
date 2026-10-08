@@ -12,7 +12,7 @@ author: "Hy Dang"
 read_time: "5 minutes"
 ---
 
-*Updated October 2026 to reflect the latest arXiv version and OpenTools' acceptance to the EMNLP 2026 Demo Track.*
+*Updated: Oct 8*
 
 ## TL;DR
 
