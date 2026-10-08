@@ -76,7 +76,7 @@ The public demo exposes both workflows: visitors can inspect tool cards and reco
 
 ## What the Figure Highlights
 
-The updated system figure captures two connected workflows:
+The system figure shows two connected workflows:
 - top half: contributions, non-executing tool scanning, optional LLM advice, human review, and selected reevaluation;
 - bottom half: user query, agent planning, tool execution, final answer, and execution logs.
 
@@ -84,7 +84,7 @@ The distinction matters: scanner findings and LLM advice support a maintainer's 
 
 <img src="{{ site.baseurl }}/images/blogs/opentools/framework-overview-v2.png" width="100%" alt="OpenTools framework overview with tool scanning, human review, and agent execution">
 
-*Figure 1 from the [latest arXiv version](https://arxiv.org/abs/2604.00137): tool maintenance and review (top) and agentic use (bottom).*
+*Figure 1. OpenTools framework overview: tool maintenance and review (top) and agentic use (bottom).*
 
 ## Main Experimental Takeaway
 
