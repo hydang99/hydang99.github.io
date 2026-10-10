@@ -1,69 +1,57 @@
 ---
-layout: archive
-title: "Miscellaneous"
+layout: portfolio
+title: "Off the clock"
 permalink: /misc/
-author_profile: true
+excerpt: "People, places, and projects beyond research: community, conservation, and life outside the lab."
+author_profile: false
 ---
-
-{% include base_path %}
-
-## 🌍 About Me
-
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #007bff; margin: 20px 0;">
-  <p style="margin: 0 0 15px 0;">
-    <i class="fas fa-map-marker-alt" style="color: #007bff; margin-right: 8px;"></i>
-    I'm originally from <strong><a href="https://www.google.com/maps/place/Da+Nang,+Vietnam/data=!4m2!3m1!1s0x314219c792252a13:0x1df0cb4b86727e06?sa=X&ved=2ahUKEwjVirLVuLz7AhXGg2oFHYfnDvgQ8gF6BAhrEAE" target="_blank">Da Nang, Vietnam</a></strong> - a beautiful coastal city known for its stunning beaches, delicious food, and warm people!
-  </p>
-  
-  <p style="margin: 0 0 15px 0;">
-    <i class="fas fa-graduation-cap" style="color: #28a745; margin-right: 8px;"></i>
-    Currently pursuing my PhD in <strong>Computer Science & Engineering</strong> at the University of Notre Dame, where I focus on <strong>Natural Language Processing</strong> and <strong>Information Retrieval</strong>.
-  </p>
-  
-  <p style="margin: 0 0 15px 0;">
-    <i class="fas fa-heart" style="color: #dc3545; margin-right: 8px;"></i>
-    Beyond research, I'm passionate about <strong>community service</strong>, <strong>environmental conservation</strong>, and <strong>helping others</strong>. I believe in using technology to make a positive impact on society.
-  </p>
-  
-  <p style="margin: 0;">
-    <i class="fas fa-coffee" style="color: #6f42c1; margin-right: 8px;"></i>
-    When I'm not coding or reading papers, you can find me exploring new places, trying different cuisines, or working on community projects that bring people together.
-  </p>
+<div class="shell misc-page" data-filter-group>
+  <section class="misc-intro" aria-labelledby="misc-title">
+    <div>
+      <p class="eyebrow">Misc / Beyond research</p>
+      <h1 id="misc-title">Off the clock<span>.</span></h1>
+      <p class="misc-lead">A few people, places, and projects that matter to me.</p>
+      <p>Originally from Da Nang, Vietnam. Always curious about new places, good food, and ways to help.</p>
+    </div>
+    <a class="hometown" href="https://www.google.com/maps/search/?api=1&amp;query=Da+Nang+Vietnam">
+      <span class="hometown-icon">{% include portfolio-icon.html name='pin' %}</span>
+      <span><span class="eyebrow">Home roots</span><strong>Da Nang, Vietnam</strong><span>Coastal city. Lifelong connection.</span></span>
+      <span class="hometown-arrow" aria-hidden="true">↗</span>
+    </a>
+  </section>
+  <div class="memory-toolbar">
+    <div class="filters" role="group" aria-label="Filter memories" hidden>
+      <button type="button" data-filter="all" aria-pressed="true">Everything</button>
+      <button type="button" data-filter="community" aria-pressed="false">Community</button>
+      <button type="button" data-filter="conservation" aria-pressed="false">Conservation</button>
+      <button type="button" data-filter="life" aria-pressed="false">Life</button>
+    </div>
+    <button class="surprise-button" type="button" data-surprise hidden>{% include portfolio-icon.html name='shuffle' %} Surprise me <span aria-hidden="true">↗</span></button>
+  </div>
+  <p class="sr-only" data-filter-status aria-live="polite" aria-atomic="true"></p>
+  <section class="memories-section" aria-labelledby="memories-title" data-gallery>
+    <h2 id="memories-title">A few chapters outside the lab<span>.</span></h2>
+    <div class="memories-grid">
+      {% for memory in site.data.memories %}
+      <article class="memory-card" id="{{ memory.id }}" data-category="{{ memory.category }}" data-memory tabindex="-1">
+        <img src="{{ memory.image | relative_url }}" alt="{{ memory.alt | escape }}" width="500" height="{{ memory.height }}" loading="lazy">
+        <div class="memory-body">
+          <p class="memory-meta"><span>{{ memory.date }}</span><span aria-hidden="true">·</span><span class="badge {{ memory.category }}">{{ memory.category | capitalize }}</span></p>
+          <h3>{{ memory.title }}<span>.</span></h3>
+          <p class="memory-location">{{ memory.location }}</p>
+          <p>{{ memory.description }}</p>
+          <details class="story-details"><summary><span class="story-closed">Read the story</span><span class="story-open">Close the story</span><span aria-hidden="true"> ↗</span></summary><div>{{ memory.story | markdownify }}</div></details>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="cat-band" id="cats" aria-labelledby="cats-title" data-category="life" data-memory tabindex="-1">
+    <div><h2 id="cats-title">The very important cat section<span>.</span></h2><p>Meet Mam and Muoi Tieu.</p></div>
+    <div class="cat-names">
+      <div class="cat-name">{% include portfolio-icon.html name='paw' %}<div><h3>Mam</h3><p>Fish Sauce</p></div></div>
+      <div class="cat-name">{% include portfolio-icon.html name='paw' %}<div><h3>Muoi Tieu</h3><p>Pepper Salt</p></div></div>
+    </div>
+    <a href="mailto:{{ site.author.email }}?subject=Let%27s%20talk%20cats">Tell me about your cat <span aria-hidden="true">↗</span></a>
+  </section>
 </div>
-
-## 🚀 Personal Projects & Activities
-
-I have a passion for community involvement, especially in exciting projects that make a difference. Below are some projects and activities that I've engaged in and am proud of. Please feel free to contact me if you want to work together or share interesting ideas to support communities!
-
-### 👥 Student Leadership
-<div style="background-color: #f8f9fa; padding: 15px; border-left: 4px solid #007bff; margin: 15px 0;">
-  <h4 style="margin-top: 0; color: #007bff;"><i class="fas fa-users" style="margin-right: 8px;"></i>Vietnamese Student Association, TCU (2018-2019)</h4>
-  <p style="margin: 0 0 15px 0;"><i class="fas fa-heart" style="color: #dc3545; margin-right: 8px;"></i>This was such a rewarding experience! As Vice President, I got to work closely with our Vietnamese student community at TCU. We organized amazing cultural events that brought together students from all backgrounds - from traditional Tet celebrations to modern Vietnamese pop culture nights. The best part was seeing how these events helped international students feel more at home and created lasting friendships across cultures.</p>
-  <img src="/images/vsa.jpg" alt="Vietnamese Student Association" style="max-width: 300px; border-radius: 8px; margin-top: 10px;">
-</div>
-
-### 🌱 Environmental Education & Conservation
-<div style="background-color: #f8f9fa; padding: 15px; border-left: 4px solid #28a745; margin: 15px 0;">
-  <h4 style="margin-top: 0; color: #28a745;"><i class="fas fa-leaf" style="margin-right: 8px;"></i>TCU Rhino Initiative - Study Abroad, South Africa (2020)</h4>
-  <p style="margin: 0 0 15px 0;"><i class="fas fa-globe-africa" style="color: #28a745; margin-right: 8px;"></i>What an incredible adventure this was! I spent time in South Africa working with the <a href="https://environment.tcu.edu/research-initiatives/rhino-conservation-in-south-africa/" target="_blank"><strong>TCU Rhino Initiative</strong></a>, where I got to see these magnificent creatures up close while helping protect them. The experience was eye-opening - I learned so much about wildlife conservation and the challenges these animals face. Working alongside local communities to educate people about rhino protection was incredibly meaningful.</p>
-  <img src="/images/rhino.jpg" alt="Rhino Conservation" style="max-width: 300px; border-radius: 8px; margin-top: 10px;">
-</div>
-
-<div style="background-color: #f8f9fa; padding: 15px; border-left: 4px solid #20c997; margin: 15px 0;">
-  <h4 style="margin-top: 0; color: #20c997;"><i class="fas fa-seedling" style="margin-right: 8px;"></i>Greenie Environmental Club, Danang (2017)</h4>
-  <p style="margin: 0 0 15px 0;"><i class="fas fa-seedling" style="color: #20c997; margin-right: 8px;"></i>This project holds a special place in my heart! During high school in Da Nang, I started the <a href="https://www.facebook.com/greenie.club" target="_blank">Greenie Environmental Club</a> because I wanted to create a space where students could learn about environmental issues and actually do something about them. We organized beach clean-ups, planted trees around the city, and held workshops to teach other students about sustainability. It was amazing to see how passionate everyone became about protecting our environment!</p>
-  <img src="/images/greenie.jpg" alt="Greenie Environmental Club" style="max-width: 300px; border-radius: 8px; margin-top: 10px;">
-</div>
-
-### 📚 Community Service
-<div style="background-color: #f8f9fa; padding: 15px; border-left: 4px solid #fd7e14; margin: 15px 0;">
-  <h4 style="margin-top: 0; color: #fd7e14;"><i class="fas fa-heart" style="margin-right: 8px;"></i>Volunteer Teacher for Street Children, Danang (2016-2017)</h4>
-  <p style="margin: 0 0 15px 0;"><i class="fas fa-heart" style="color: #fd7e14; margin-right: 8px;"></i>During high school in Da Nang, I volunteered to teach street children, and it was incredibly amazing. These kids were so eager to learn despite their difficult circumstances. We'd help them with homework, but the most meaningful moments were the simple things - sharing meals together, decorating their homes for Tet holiday, and just being there to listen. The smiles on their faces made every moment worthwhile.</p>
-  <img src="/images/volunteer.jpg" alt="Volunteer Teaching" style="max-width: 300px; border-radius: 8px; margin-top: 10px;">
-</div>
-
-## 🤝 Let's Connect!
-
-I'm always open to new opportunities and collaborations. If you have interesting project ideas or want to work together on community initiatives, please don't hesitate to reach out!
-
-**Contact:** hdang [at] nd [dot] edu

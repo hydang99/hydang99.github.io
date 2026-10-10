@@ -1,0 +1,44 @@
+- id: rhino
+  date: '2020'
+  category: conservation
+  title: A different kind of fieldwork
+  location: TCU Rhino Initiative · South Africa
+  image: /images/rhino.jpg
+  height: 342
+  alt: Hy and a conservation team working beside a rhino in South Africa
+  description: Learning about wildlife conservation and rhino protection alongside local communities.
+  story: >-
+    Through the [TCU Rhino Initiative](https://environment.tcu.edu/research-initiatives/rhino-conservation-in-south-africa/), I spent time in South Africa learning about wildlife conservation and the challenges facing rhinos. Seeing these animals up close and working alongside local communities on education about rhino protection made the experience especially meaningful.
+- id: vsa
+  date: 2018–2019
+  category: community
+  title: A little closer to home
+  location: Vietnamese Student Association · TCU
+  image: /images/vsa.jpg
+  height: 341
+  alt: The Vietnamese Student Association at TCU gathered for a group photo
+  description: Cultural events, shared traditions, and community as VSA Vice President.
+  story: >-
+    As Vice President, I worked with our Vietnamese student community at TCU to organize cultural events, from traditional Tet celebrations to Vietnamese pop culture nights. The best part was seeing these events help international students feel more at home and build lasting friendships across cultures.
+- id: greenie
+  date: '2017'
+  category: conservation
+  title: Small actions, shared purpose
+  location: Greenie Environmental Club · Da Nang
+  image: /images/greenie.jpg
+  height: 365
+  alt: Hy and Greenie Environmental Club members with their environmental education displays
+  description: A student-led space for beach cleanups, tree planting, and environmental education.
+  story: >-
+    During high school in Da Nang, I started the [Greenie Environmental Club](https://www.facebook.com/greenie.club) to give students a place to learn about environmental issues and take action. We organized beach cleanups, planted trees, and held sustainability workshops for other students. It was encouraging to see our shared interest turn into activities around the city.
+- id: volunteering
+  date: 2016–2017
+  category: community
+  title: Learning goes both ways
+  location: Volunteer teaching · Da Nang
+  image: /images/volunteer.jpg
+  height: 375
+  alt: Volunteers and children sharing a community meal in Da Nang
+  description: Teaching, sharing meals, and celebrating Tet with local children.
+  story: >-
+    In high school, I volunteered to teach street children in Da Nang. Alongside helping with homework, we shared meals, decorated their homes for Tet, and spent time listening. Those everyday moments of connection were among the most meaningful parts of volunteering.

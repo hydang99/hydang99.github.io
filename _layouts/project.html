@@ -1,14 +1,12 @@
 ---
-layout: default
+layout: portfolio
 ---
 
-{% include base_path %}
-
-<div class="project-page">
+<article class="article-shell project-page">
+  <a class="back-link" href="{{ '/#research' | relative_url }}">← Selected research</a>
   {{ content }}
-  {% if page.link %}<div><a href="{{ page.link }}" class="btn">Visit Project</a></div>{% endif %}
-  {% if page.share %}{% include social-share.html %}{% endif %}
-</div>
+  {% if page.link %}<div><a href="{{ page.link }}" class="button">Visit Project ↗</a></div>{% endif %}
+</article>
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "OpenTools: Open, Reliable, and Collective Tool-Using AI Agents"
 permalink: /blogs/opentools-community-driven-tool-agents/
-layout: single
+layout: journal
 date: 2026-05-03
 last_modified_at: 2026-10-08
 author_profile: true
@@ -37,9 +37,9 @@ In the paper's evaluation, the OpenTools toolbox improves the overall average ac
 - Demo video: [YouTube walkthrough](https://www.youtube.com/watch?v=ORH-DKfJF-k)
 
 <p>
-  <a href="https://huggingface.co/spaces/opentools/opentools" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 16px;margin:4px 8px 4px 0;background:#2563eb;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;">Try Live Demo</a>
-  <a href="https://github.com/hydang99/opentools" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 16px;margin:4px 8px 4px 0;background:#111827;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;">View on GitHub</a>
-  <a href="https://arxiv.org/abs/2604.00137" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 16px;margin:4px 8px 4px 0;background:#059669;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;">Read Paper</a>
+  <a href="https://huggingface.co/spaces/opentools/opentools" target="_blank" rel="noopener noreferrer" class="button primary">Try Live Demo</a>
+  <a href="https://github.com/hydang99/opentools" target="_blank" rel="noopener noreferrer" class="button">View on GitHub</a>
+  <a href="https://arxiv.org/abs/2604.00137" target="_blank" rel="noopener noreferrer" class="button">Read Paper</a>
 </p>
 
 ## Demo Video

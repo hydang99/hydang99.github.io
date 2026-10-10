@@ -1,0 +1,13 @@
+---
+layout: portfolio
+---
+<article class="article-shell journal-page">
+  <a class="back-link" href="{{ '/blogs/' | relative_url }}">← All blog posts</a>
+  <header class="article-header">
+    <p class="eyebrow">Research notes / Blog</p>
+    <h1>{{ page.title | escape | replace: '/', '/<wbr>' }}</h1>
+    <p class="article-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time>{% if page.author %} <span aria-hidden="true">·</span> {{ page.author }}{% endif %}{% if page.read_time and page.read_time != true %} <span aria-hidden="true">·</span> {{ page.read_time }}{% endif %}</p>
+  </header>
+  <div class="prose">{{ content }}</div>
+  <nav class="article-end" aria-label="Article navigation"><a href="{{ '/blogs/' | relative_url }}">← More research notes</a><a href="{{ '/#research' | relative_url }}">Selected research ↗</a></nav>
+</article>

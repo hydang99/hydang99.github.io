@@ -194,7 +194,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: talk
+      layout: journal
       author_profile: false
       read_time: true
       comments: true

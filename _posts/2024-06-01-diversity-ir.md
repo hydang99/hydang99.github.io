@@ -1,7 +1,7 @@
 ---
 title: "Redefine 'Diversity' in the era of LLMs in Information Retrieval/Recommendations System"
 permalink: /blogs/diversity-ir/
-layout: single
+layout: journal
 date: 2024-06-01
 author_profile: true
 categories: [Blog]
@@ -163,7 +163,7 @@ There have been many diversity metrics have been introduced and implemented to e
     - M-IA metrics [[Paper](https://dl.acm.org/doi/abs/10.1145/1498759.1498766)]
         - For these calculation, they assume user may have different intents. Thus, to calculate Intent-Aware of users using different metrics (nDCG, MRR, MAP). We just need to calculate the recommended results for each intent then perform the final calculations as “average” the scores of all the intents with weights for each intent score to depict the distribution and “important” of each intents
 
-# 2. "Additional" Diversity in Modern Retrieval/Recommendation System
+## 2. "Additional" Diversity in Modern Retrieval/Recommendation System
 
 With the revolutionary era of LLM, there have been the implementation of LLM in different stages of IR framework, especially the introduction of RAG system. According to, it is significant to me that LLM have been or (can be) implemented in any stages of the IR system.
 <img src="{{ site.baseurl }}/images/blogs/diversity-ir/llm_ir.png" width="100%">
@@ -232,7 +232,7 @@ Since below research bring interesting approaches to incorporate “diversity”
     
     ![AutoCoT Framework]({{ site.baseurl }}/images/blogs/diversity-ir/AutoCoT_framework.png)
 
-# 3. Summary and Future Directions
+## 3. Summary and Future Directions
 Through some of my analysis on current trends and approaches, I believe that these mentioned directions (📡) can further improve the strengths (✅) and weaknesses (🚫) of current and existing approaches
 
 **Search Result Diversification:** 

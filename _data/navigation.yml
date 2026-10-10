@@ -1,7 +1,10 @@
 # main links links
 main:
-  - title: "CV"
-    url: /cv/
+  - title: "Research"
+    url: /#research
+
+  - title: "Journey"
+    url: /#journey
 
   - title: "Blogs"
     url: /blogs/
@@ -9,5 +12,7 @@ main:
   - title: "Misc"
     url: /misc/
 
+  - title: "CV"
+    url: /cv/
 
 

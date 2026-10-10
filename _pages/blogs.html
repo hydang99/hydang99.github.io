@@ -1,0 +1,43 @@
+---
+layout: portfolio
+title: Blogs
+permalink: /blogs/
+excerpt: "Research notes on language models, agents, information retrieval, and the questions behind the papers."
+author_profile: false
+---
+<div class="shell writing-page">
+  <header class="writing-intro">
+    <p class="eyebrow">Blogs / Research notes</p>
+    <h1>Thinking out loud<span>.</span></h1>
+    <p>I read papers and write to better understand the problems I encounter in my research. Here are my notes on language models, information retrieval, and data mining—and the questions I’m still exploring.</p>
+  </header>
+  <section class="writing-section" aria-labelledby="posts-title">
+    <h2 id="posts-title">From my notebook<span>.</span></h2>
+    <div class="writing-grid">
+      {% for post in site.posts %}
+      <article class="writing-card">
+        <p class="article-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %d, %Y' }}</time>{% if post.read_time and post.read_time != true %} · {{ post.read_time }}{% endif %}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html }}</p>
+        <a class="writing-link" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title | escape }}">Read the post ↗</a>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="writing-section" aria-labelledby="projects-title">
+    <div class="section-heading"><div><h2 id="projects-title">Inside the research<span>.</span></h2><p>Project pages, methods, and results behind the papers.</p></div></div>
+    <div class="writing-grid">
+      {% assign publications = site.publications | sort: 'date' | reverse %}
+      {% for pub in publications %}
+      {% if pub.link contains '/publication/' %}
+      <article class="writing-card project-card">
+        <p class="article-meta">{{ pub.venue }}</p>
+        <h3><a href="{{ pub.link | relative_url }}">{{ pub.title }}</a></h3>
+        {% if pub.excerpt and pub.excerpt != "Project Page." %}<p>{{ pub.excerpt | strip_html }}</p>{% endif %}
+        <a class="writing-link" href="{{ pub.link | relative_url }}" aria-label="Explore {{ pub.title | escape }}">Explore the project ↗</a>
+      </article>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</div>

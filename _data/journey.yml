@@ -1,0 +1,55 @@
+- date: JUN–SEP 2026
+  title: Oracle
+  subtitle: Applied Scientist Intern · Skill evolution for LLM agents
+  category: industry
+  details: "During my internship in Redwood City, I developed an agentic AI framework for skill evolution, enabling LLM agents to construct, refine, and reuse task-specific skills for complex reasoning and decision-making."
+- date: AUG 2026
+  title: OpenTools
+  subtitle: EMNLP 2026 Demo Track · Community-driven tool-using agents
+  category: research
+  details: "1st-author paper got accepted to EMNLP 2026 Demo Track: **Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents**. OpenTools addresses both tool-use accuracy and the intrinsic reliability of tools. Thank you to all collaborators!"
+  link: /publication/opentools/
+  link_label: Explore OpenTools
+- date: JUN 2026
+  title: Ph.D. candidacy
+  subtitle: Towards Reliable Tool-Augmented Agentic AI Frameworks
+  category: education
+  details: "I passed my Oral Candidacy Exam at Notre Dame. Thank you to my committee: Dr. Meng Jiang, Dr. Toby Li, Dr. Zhi Zheng, and Dr. Avi Sil."
+- date: APR 2026
+  title: Rideshare disparities
+  subtitle: CSCW 2026 · Earning and work patterns in Chicago
+  category: research
+  details: "1st-author paper got accepted to CSCW 2026: **Uncovering Disparities in Rideshare Drivers’ Earning and Work Patterns: A Case Study of Chicago**. Thank you to all collaborators!"
+  link: https://dl.acm.org/doi/full/10.1145/3817023
+  link_label: Read the paper
+- date: AUG 2025
+  title: Guided function calling
+  subtitle: EMNLP 2025 · Work from my Amazon internship
+  category: research
+  details: "1st-author paper got accepted to EMNLP 2025 Main: **Improving Large Language Models Function Calling and Interpretability via Guided-Structured Templates**. This work was completed during my Amazon internship. Thank you to all collaborators!"
+  link: /publication/emnlp_2025/
+  link_label: Explore the project
+- date: MAY 2025
+  title: DYDECOMP
+  subtitle: ACL 2025 · Optimizing decomposition for claim verification
+  category: research
+  details: "**Optimizing Decomposition for Optimal Claim Verification**, with Yining Lu, Noah Ziems, and Meng Jiang, was accepted to ACL 2025 Main."
+  link: https://aclanthology.org/2025.acl-long.254/
+  link_label: Read the paper
+- date: SEP 2024
+  title: Amazon Rufus
+  subtitle: Applied Scientist Intern · September 2024–May 2025
+  category: industry
+  details: "I worked with Team Rufus in Palo Alto on improving the tool-use and function-calling capabilities of LLMs. My mentors were Dr. Tianyi Liu, Dr. Zhuofeng Wu, Jingfeng Yang, and Dr. Haoming Jiang."
+- date: MAY 2023
+  title: Community recommendation
+  subtitle: CODI at ACL 2023 · Mental health discourse
+  category: research
+  details: "Co-1st-author paper got accepted to the 4th Workshop on Computational Approaches to Discourse at ACL 2023: **Embedding Mental Health Discourse for Community Recommendation**. Thank you to all collaborators!"
+  link: /publication/codi_acl_2023/
+  link_label: Explore the project
+- date: AUG 2022
+  title: University of Notre Dame
+  subtitle: Ph.D. in Computer Science and Engineering · DM2 Lab
+  category: education
+  details: "I began my Ph.D. in Computer Science and Engineering at the University of Notre Dame, advised by Prof. Meng Jiang in the DM2 Lab."
