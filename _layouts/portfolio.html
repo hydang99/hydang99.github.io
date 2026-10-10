@@ -18,7 +18,7 @@
         <a href="{{ '/#journey' | relative_url }}">Journey</a>
         <a href="{{ '/blogs/' | relative_url }}"{% if page.url contains '/blogs/' %} aria-current="page"{% endif %}>Blogs</a>
         <a href="{{ '/misc/' | relative_url }}"{% if page.url == '/misc/' %} aria-current="page"{% endif %}>Misc</a>
-        <a href="{{ '/cv/' | relative_url }}">CV <span aria-hidden="true">↗</span></a>
+        <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
     <main id="main-content">{{ content }}</main>

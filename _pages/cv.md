@@ -1,37 +1,28 @@
 ---
-layout: archive
+layout: single
 title: "Curriculum Vitae (CV)"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #007bff; margin: 20px 0;">
-  <p style="margin: 0 0 10px 0;">
-    <i class="fas fa-file-pdf" style="color: #dc3545; margin-right: 8px;"></i>
-    <strong>Download:</strong> <a href="{{ site.baseurl }}/files/Hy_Dang_CV.pdf" target="_blank">PDF Version</a>
-  </p>
-  
-  <p style="margin: 0 0 10px 0;">
-    <i class="fas fa-envelope" style="color: #28a745; margin-right: 8px;"></i>
-    <strong>Email:</strong> <a href="mailto:hdang@nd.edu">hdang@nd.edu</a>
-  </p>
-  
-  <p style="margin: 0;">
-    <i class="fas fa-building" style="color: #6c757d; margin-right: 8px;"></i>
-    <strong>Office:</strong> 355 Fitzpatrick Hall, Notre Dame, IN 46565
-  </p>
-</div>
-{% include base_path %}
+<p class="cv-contact"><strong>Office:</strong> 355 Fitzpatrick Hall, Notre Dame, IN 46565 · <a href="mailto:hdang@nd.edu">hdang@nd.edu</a></p>
+<nav class="cv-jump-links" aria-label="CV sections">
+  <a href="#education">Education</a>
+  <a href="#industry-experience">Industry</a>
+  <a href="#publications">Publications</a>
+  <a href="#awards--funding">Awards</a>
+  <a href="#service">Service</a>
+</nav>
 
-## 🔬 Research Interests
+## Research Interests
 My research focuses on building reliable and self-improving LLM agents capable of complex, multi-step reasoning and decision-making. I investigate how agents can effectively use and create tools, learn from experience, and autonomously evolve their capabilities.
 
 * **Tool-Augmented Agents:** Developing methods for effective tool use and reliable tool construction, improving agents' tool-use accuracy and the intrinsic reliability of tools in complex, real-world workflows.
 
 * **Self-Improving and Evolving Agents:** Enabling agents to acquire, refine, and evolve reusable skills and strategies through feedback and experience, improving adaptability, robustness, and efficiency.
 
-## 🎓 Education
+## Education
 * **Ph.D. Candidate in Computer Science and Engineering**, University of Notre Dame, Notre Dame, IN
   * August 2022 - Present
   * GPA: 3.958
@@ -42,7 +33,7 @@ My research focuses on building reliable and self-improving LLM agents capable o
   * GPA: 4.0
   * Departmental Honors
 
-## 💼 Industry Experience
+## Industry Experience
 * **Applied Scientist Intern (Applied Science Team)**, Oracle, Redwood City, CA
   * June 2026 - September 2026
   * Developed an agentic AI framework for skill evolution, enabling LLM agents to construct, refine, and reuse task-specific skills for complex reasoning and decision-making.
@@ -53,7 +44,7 @@ My research focuses on building reliable and self-improving LLM agents capable o
   * **Project:** Improving the Tool Using and Function Calling Capabilities of LLM(s)
   * **Mentors:** Dr. Tianyi Liu, Dr. Zhuofeng Wu, Jingfeng Yang, Dr. Haoming Jiang
 
-## 🔬 Research Projects
+## Research Projects
 * **ToolBox Reliability for LLM Agents**
   * May 2025 - Present
   * Building a community-driven toolbox to improve tool-integrated LLM reliability by addressing both tool-use accuracy and intrinsic tool accuracy.
@@ -70,7 +61,7 @@ My research focuses on building reliable and self-improving LLM agents capable o
   * August 2022 - April 2024
   * Improving diversity in query expansion in document retrieval.
 
-## 📚 Publications
+## Publications
 
 ### Conference Papers
 * **Hy Dang**, Quang Dao, Meng Jiang. *Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents*. Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP 2026 Demo Track). [Paper](https://arxiv.org/abs/2604.00137) · [Project page](/publication/opentools/)
@@ -90,7 +81,7 @@ My research focuses on building reliable and self-improving LLM agents capable o
 
 * Meng Jiang, **Hy Dang**, Lingbo Tong. *A Quantitative Review on Language Model Efficiency Research*. LLM Symposium in conjunction with International Joint Conference on Artificial Intelligence (IJCAI 2023).
 
-## 🎤 Presentations
+## Presentations
 * **Hy Dang**, Mengxia Yu, Meng Jiang. *Improving Diversity of Query Expansion in Document Retrieval*. Midwest Speech and Language Days (MSLD 2025).
 
 * **Hy Dang**. *Wound Healing Modeling Using Partial Differential Equations And Deep Learning*. Presentation at National Collegiate Research Conference (NCRC 2022).
@@ -101,7 +92,7 @@ My research focuses on building reliable and self-improving LLM agents capable o
 
 * **Hy Dang**. *Wound Healing Modeling Using Partial Differential Equations And Deep Learning*, Sixteenth Annual Texas Undergraduate Mathematics Conference (TUMC 2021).
 
-## 🏆 Awards & Funding
+## Awards & Funding
 * **Outstanding Reviewer**, ARR October 2025 Cycle
 
 * **Tinker Research Grant**, Thinking Machines Lab
@@ -121,7 +112,7 @@ My research focuses on building reliable and self-improving LLM agents capable o
 
 * **Academic Achievement Award**, TCU, May 2018
 
-## 🤝 Service
+## Service
 * **Teaching Assistant at University of Notre Dame:**
   * CSE 20110: Discrete Mathematics - Fall 2022
   * CSE 40171: AI and Society - Spring 2023

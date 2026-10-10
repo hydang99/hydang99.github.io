@@ -13,6 +13,10 @@ redirect_from:
     <p class="eyebrow">AI researcher · Notre Dame</p>
     <h1 id="intro-title">Building agents that<br class="desktop-break"> learn, reason &amp; use tools<span>.</span></h1>
     <p class="intro">I’m Hy Dang, a Ph.D. candidate in Computer Science and Engineering at the <a href="https://www.nd.edu/">University of Notre Dame</a>. I work in the <a href="http://www.meng-jiang.com/lab.html">DM2 Lab</a>, advised by <a href="http://www.meng-jiang.com/">Prof. Meng Jiang</a>. My research focuses on reliable and self-improving LLM agents: how they use and create tools, learn from experience, and tackle complex reasoning tasks.</p>
+    <aside class="opportunity-note" aria-label="Career opportunities">
+      <p class="opportunity-label">Open to opportunities</p>
+      <p>I’m actively looking for <strong>Applied Scientist / Research Scientist</strong> roles starting in <strong>Summer/Fall 2027</strong>. If you think I’d be a good fit for your team, <a href="mailto:{{ site.author.email }}?subject=Applied%20Scientist%20%2F%20Research%20Scientist%20opportunity">let’s connect<span aria-hidden="true"> ↗</span></a>.</p>
+    </aside>
     <div class="hero-actions">
       <a class="button primary" href="#research">Explore my research <span aria-hidden="true">↗</span></a>
       <a class="button" href="{{ '/files/Hy_Dang_CV.pdf' | relative_url }}">Download CV <span aria-hidden="true">↓</span></a>

@@ -80,3 +80,54 @@
   .prose th, .prose td { padding: 10px; }
   .article-end { flex-wrap: wrap; }
 }
+
+/* Career note in the homepage introduction. */
+.opportunity-note {
+  margin-top: 24px;
+  padding: 17px 20px;
+  border: 1px solid #d5e3fc;
+  border-left: 3px solid var(--blue);
+  border-radius: var(--radius);
+  background: #f0f6ff;
+}
+.opportunity-note .opportunity-label {
+  margin-bottom: 6px;
+  color: var(--blue);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .075em;
+  text-transform: uppercase;
+}
+.opportunity-note p { font-size: 15px; line-height: 1.7; }
+.opportunity-note strong { color: var(--ink); font-weight: 650; }
+.opportunity-note a { font-weight: 600; text-decoration: underline; }
+@media (max-width: 520px) {
+  .opportunity-note { padding: 15px 16px; }
+  .opportunity-note p { font-size: 14px; }
+}
+
+/* Documents and archives use the same shell as research articles. */
+.document-cover { width: 100%; max-height: 420px; object-fit: cover; margin-top: 24px; border-radius: var(--radius); }
+.document-page .article-header .article-meta + .article-meta { margin-top: 8px; }
+.cv-contact { font-size: 15px; }
+.cv-jump-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 38px; }
+.prose .cv-jump-links a { padding: 7px 14px; border: 1px solid var(--line); border-radius: 7px; font-size: 14px; text-decoration: none; }
+.cv-jump-links a:hover { background: var(--wash); }
+.cv-page .prose > h2 { padding-top: 28px; border-top: 1px solid var(--line); }
+.cv-page .prose > ul { padding-left: 22px; }
+.cv-page .prose > ul > li { margin-bottom: 24px; padding-left: 5px; }
+.cv-page .prose > ul > li > ul { font-size: 15px; margin-top: 8px; }
+.archive-entry { padding: 25px; margin-block: 18px; border: 1px solid var(--line); border-radius: var(--radius); }
+.prose .archive-entry h3 { margin: 0 0 12px; font-size: 23px; }
+.prose .archive-entry h3 a { color: var(--ink); text-decoration: none; }
+.prose .archive-entry h3 a:hover { color: var(--blue); }
+.prose .archive-entry p { font-size: 15px; margin-bottom: 14px; }
+.prose .archive-entry p:last-child { margin-bottom: 0; }
+.archive-entry-image { max-height: 220px; object-fit: cover; }
+.archive-entry-citation, .citation-note { font-size: 14px; }
+@media (max-width: 520px) {
+  .archive-entry { padding: 18px; }
+  .prose .archive-entry h3 { font-size: 21px; }
+  .cv-jump-links { gap: 7px; }
+  .prose .cv-jump-links a { padding: 7px 11px; }
+}
