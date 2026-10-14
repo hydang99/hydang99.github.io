@@ -37,7 +37,7 @@ My research focuses on building reliable and self-improving LLM agents capable o
 * **Applied Scientist Intern (Applied Science Team)**, Oracle, Redwood City, CA
   * June 2026 - September 2026
   * Developed an agentic AI framework for skill evolution, enabling LLM agents to construct, refine, and reuse task-specific skills for complex reasoning and decision-making.
-  * **Mentors:** Dr. Julien Yu, Dr. Mihaela Bornea, Dr. Hiya Roy, Hitesh Patel, Dr. Yinsheng Wang, Dr. Avi Sil (Manager)
+  * **Mentors/Managers:** Dr. Julien Yu, Dr. Mihaela Bornea, Hitesh Patel, Dr. Yinsheng Wang, Dr. Avi Sil, Dr. Katrin Kirchhoff
 
 * **Applied Scientist Intern (Team Rufus)**, Amazon, Palo Alto, CA
   * September 2024 - May 2025
