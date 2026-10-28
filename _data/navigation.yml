@@ -1,18 +1,11 @@
-# main links links
 main:
-  - title: "Research"
-    url: /#research
-
-  - title: "Journey"
-    url: /#journey
-
-  - title: "Blogs"
-    url: /blogs/
-
-  - title: "Misc"
-    url: /misc/
-
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
   - title: "CV"
     url: /cv/
-
-
+  - title: "Blog"
+    url: /blogs/
+  - title: "Personal"
+    url: /misc/

@@ -1,0 +1,32 @@
+{% comment %}Use the curated order and venue labels with publication records for authors and links.{% endcomment %}
+<ol class="publication-list">
+  {% for selected in site.data.selected_research %}
+  {% assign source_path = selected.slug | prepend: '_publications/' | append: '.md' %}
+  {% assign pub = site.publications | where: 'path', source_path | first %}
+  {% if pub %}
+  {% assign paper_url = pub.paper_link | default: pub.paperurl | default: pub.arxiv %}
+  {% assign title_url = paper_url | default: pub.link | default: pub.url %}
+  {% assign thumbnail = pub.thumbnail | default: '/icons/education_paper.svg' %}
+  {% assign thumbnail_url = pub.link | default: title_url %}
+  {% capture author_name %}<strong>{{ site.author.name }}</strong>{% endcapture %}
+  <li>
+    <article class="publication-entry">
+      <a class="publication-thumbnail" href="{{ thumbnail_url | relative_url }}" aria-label="View {{ pub.title | escape }}">
+        <img src="{{ thumbnail | relative_url }}" alt="{{ pub.thumbnail_alt | default: pub.title | escape }}" width="176" height="124" loading="lazy" decoding="async">
+      </a>
+      <div class="publication-body">
+      <h3><a href="{{ title_url | relative_url }}">{{ pub.title }}</a></h3>
+      <p class="publication-authors">{{ pub.authors | escape | replace: site.author.name, author_name }}</p>
+      <p class="publication-venue">{{ selected.venue }}</p>
+      <p class="publication-links">
+        {% if paper_url %}<a href="{{ paper_url | relative_url }}">[Paper]</a>{% endif %}
+        {% if pub.link %}<a href="{{ pub.link | relative_url }}">[Project]</a>{% endif %}
+        {% if pub.arxiv and pub.arxiv != paper_url %}<a href="{{ pub.arxiv }}">[arXiv]</a>{% endif %}
+        {% if pub.code %}<a href="{{ pub.code }}">[Code]</a>{% endif %}
+      </p>
+      </div>
+    </article>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ol>

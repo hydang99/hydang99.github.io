@@ -9,6 +9,8 @@ tags: [LLM, Agent, Tools]
 excerpt: "Project Page."
 link: /publication/opentools/
 title_link: /publication/opentools/
+thumbnail: /images/blogs/opentools/framework-overview-v2.png
+thumbnail_alt: "OpenTools framework showing tool evaluation, community contributions, and agent execution"
 paper_link: https://arxiv.org/abs/2604.00137
 arxiv: https://arxiv.org/abs/2604.00137
 authors: "Hy Dang, Quang Dao, Meng Jiang"

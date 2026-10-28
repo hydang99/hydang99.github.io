@@ -11,6 +11,7 @@ excerpt: "Project Page."
 title_link: /publication/codi_acl_2023/
 paper_link: https://aclanthology.org/2023.codi-1.22/
 thumbnail: /publication/codi_acl_2023/static/images/mental_health_main.png
+thumbnail_alt: "Community recommendation model combining text embeddings and matrix factorization"
 arxiv: https://arxiv.org/abs/2307.03892
 authors: "Hy Dang*, Bang Nguyen*, Noah Ziems, Meng Jiang"
 ---
