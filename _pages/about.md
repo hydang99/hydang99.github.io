@@ -16,11 +16,11 @@ redirect_from:
       <p>I am a Ph.D. candidate at the <a href="https://www.nd.edu/">University of Notre Dame</a>, where I work in the <a href="http://www.meng-jiang.com/lab.html">DM2 Lab</a> advised by <a href="http://www.meng-jiang.com/">Prof. Meng Jiang</a>.</p>
       <p>My research focuses on <strong>reliable and self-improving LLM agents</strong>. I study how agents use and create tools, learn reusable skills from experience, and solve complex reasoning tasks.</p>
       <nav class="profile-links" aria-label="Contact and academic profiles">
-        <a href="mailto:{{ site.author.email }}">Email</a>
-        <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-        <a href="{{ '/files/Hy_Dang_CV.pdf' | relative_url }}">CV (PDF)</a>
-        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-        <a href="https://x.com/{{ site.author.twitter }}">X / Twitter</a>
+        <a href="mailto:{{ site.author.email }}">{% include portfolio-icon.html name='email' %}<span>Email</span></a>
+        <a href="{{ site.author.googlescholar }}">{% include portfolio-icon.html name='scholar' %}<span>Google Scholar</span></a>
+        <a href="{{ '/files/Hy_Dang_CV.pdf' | relative_url }}">{% include portfolio-icon.html name='cv' %}<span>CV (PDF)</span></a>
+        <a href="https://github.com/{{ site.author.github }}">{% include portfolio-icon.html name='github' %}<span>GitHub</span></a>
+        <a href="https://x.com/{{ site.author.twitter }}">{% include portfolio-icon.html name='x' %}<span>X / Twitter</span></a>
       </nav>
     </div>
     <img class="profile-photo" src="{{ '/images/hy_dang_headshot.png' | relative_url }}" alt="Hy Dang" width="1760" height="1844" fetchpriority="high">
@@ -32,18 +32,18 @@ redirect_from:
     <span id="journey" class="anchor-alias" aria-hidden="true"></span>
     <h2 id="news-title">News</h2>
     <ul class="news-list">
-      <li><time datetime="2026-09">Sep 2026</time><div>I completed an Applied Scientist internship at <strong>Oracle</strong>, working on skill evolution for LLM agents.</div></li>
-      <li><time datetime="2026-08">Aug 2026</time><div><a href="{{ '/publication/opentools/' | relative_url }}">OpenTools</a> was accepted to <strong>EMNLP 2026 Demo Track</strong>.</div></li>
-      <li><time datetime="2026-06">Jun 2026</time><div>I passed my Oral Candidacy Exam: <em>Towards Reliable Tool-Augmented Agentic AI Frameworks</em>.</div></li>
-      <li><time datetime="2026-04">Apr 2026</time><div>Our paper on <a href="https://dl.acm.org/doi/full/10.1145/3817023">rideshare drivers’ earning and work patterns</a> was accepted to <strong>CSCW 2026</strong>.</div></li>
-      <li><time datetime="2025-08">Aug 2025</time><div>Our work on <a href="{{ '/publication/emnlp_2025/' | relative_url }}">guided templates for LLM function calling</a>, from my Amazon internship, was accepted to <strong>EMNLP 2025</strong>.</div></li>
-      <li><time datetime="2025-05">May 2025</time><div><a href="https://aclanthology.org/2025.acl-long.254/">DYDECOMP</a> was accepted to <strong>ACL 2025</strong>.</div></li>
+      <li><span class="news-icon">{% include portfolio-icon.html name='industry' %}</span><time datetime="2026-09">Sep 2026</time><div>I completed an Applied Scientist internship at <strong>Oracle</strong>, working on skill evolution for LLM agents.</div></li>
+      <li><span class="news-icon">{% include portfolio-icon.html name='research' %}</span><time datetime="2026-08">Aug 2026</time><div><a href="{{ '/publication/opentools/' | relative_url }}">OpenTools</a> was accepted to <strong>EMNLP 2026 Demo Track</strong>.</div></li>
+      <li><span class="news-icon">{% include portfolio-icon.html name='education' %}</span><time datetime="2026-06">Jun 2026</time><div>I passed my Oral Candidacy Exam: <em>Towards Reliable Tool-Augmented Agentic AI Frameworks</em>.</div></li>
+      <li><span class="news-icon">{% include portfolio-icon.html name='research' %}</span><time datetime="2026-04">Apr 2026</time><div>Our paper on <a href="https://dl.acm.org/doi/full/10.1145/3817023">rideshare drivers’ earning and work patterns</a> was accepted to <strong>CSCW 2026</strong>.</div></li>
+      <li><span class="news-icon">{% include portfolio-icon.html name='research' %}</span><time datetime="2025-08">Aug 2025</time><div>Our work on <a href="{{ '/publication/emnlp_2025/' | relative_url }}">guided templates for LLM function calling</a>, from my Amazon internship, was accepted to <strong>EMNLP 2025</strong>.</div></li>
+      <li><span class="news-icon">{% include portfolio-icon.html name='research' %}</span><time datetime="2025-05">May 2025</time><div><a href="https://aclanthology.org/2025.acl-long.254/">DYDECOMP</a> was accepted to <strong>ACL 2025</strong>.</div></li>
     </ul>
     <details class="older-news">
       <summary>Earlier news</summary>
       <ul class="news-list">
         {% for event in site.data.journey offset:6 %}
-        <li><span class="news-date">{{ event.date }}</span><div>{{ event.details | markdownify }}{% if event.link %}<a href="{% if event.link contains '://' %}{{ event.link }}{% else %}{{ event.link | relative_url }}{% endif %}">{{ event.link_label }}</a>{% endif %}</div></li>
+        <li><span class="news-icon">{% include portfolio-icon.html name=event.category %}</span><span class="news-date">{{ event.date }}</span><div>{{ event.details | markdownify }}{% if event.link %}<a href="{% if event.link contains '://' %}{{ event.link }}{% else %}{{ event.link | relative_url }}{% endif %}">{{ event.link_label }}</a>{% endif %}</div></li>
         {% endfor %}
       </ul>
     </details>
@@ -74,7 +74,8 @@ redirect_from:
 
   <section class="academic-section" id="contact" aria-labelledby="contact-title">
     <h2 id="contact-title">Contact</h2>
-    <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br>355 Fitzpatrick Hall of Engineering<br>University of Notre Dame, Notre Dame, IN</p>
+    <p><a class="contact-link" href="mailto:{{ site.author.email }}">{% include portfolio-icon.html name='email' %}<span>{{ site.author.email }}</span></a></p>
+    <p class="contact-address">{% include portfolio-icon.html name='location' %}<span>355 Fitzpatrick Hall of Engineering<br>University of Notre Dame, Notre Dame, IN</span></p>
     <p class="personal-note">Outside research, I enjoy spending time with my cats, Mam and Muoi Tieu. <a href="{{ '/misc/' | relative_url }}">More about me</a>.</p>
   </section>
 </div>

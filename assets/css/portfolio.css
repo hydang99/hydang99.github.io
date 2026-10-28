@@ -4,6 +4,8 @@
   --muted: #626262;
   /* University palette: https://onmessage.nd.edu/university-branding/colors/ */
   --blue: #0c2340;
+  --link: #075eb5;
+  --link-hover: #03417e;
   --gold: #ae9142;
   --line: #dedede;
   --wash: #f7f7f7;
@@ -22,8 +24,8 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
-a { color: var(--blue); text-decoration: none; text-underline-offset: 3px; }
-a:hover { text-decoration: underline; }
+a { color: var(--link); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--link-hover); text-decoration-thickness: 2px; }
 a:focus-visible, button:focus-visible, summary:focus-visible, [tabindex]:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 4px;
@@ -41,9 +43,11 @@ strong { font-weight: 600; }
 .skip-link { position: absolute; top: -100px; left: 16px; z-index: 10; background: #fff; padding: 8px 12px; }
 .skip-link:focus { top: 8px; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 24px 0 18px; border-bottom: 2px solid var(--gold); }
-.wordmark { color: var(--blue); font-family: Georgia, "Times New Roman", serif; font-size: 21px; white-space: nowrap; }
+.wordmark { color: var(--blue); font-family: Georgia, "Times New Roman", serif; font-size: 21px; white-space: nowrap; text-decoration: none; }
+.wordmark:hover { text-decoration: underline; }
 .site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; }
-.site-nav a { display: inline-block; padding-block: 6px; font-size: 14px; color: var(--muted); }
+.site-nav a { display: inline-block; padding-block: 6px; font-size: 14px; color: var(--link); }
+.site-nav a:hover { color: var(--link-hover); }
 .site-nav a[aria-current] { color: var(--blue); text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 6px; }
 .site-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; border-top: 1px solid var(--line); padding: 20px 0 28px; font-size: 13px; color: var(--muted); }
 
@@ -54,6 +58,13 @@ strong { font-weight: 600; }
 .profile .affiliation { color: var(--muted); font-size: 15px; line-height: 1.55; margin-bottom: 20px; }
 .profile-photo { width: 180px; height: auto; margin-top: 5px; }
 .profile-links { display: flex; flex-wrap: wrap; gap: 5px 17px; margin-top: 18px; font-size: 15px; }
+.icon { display: inline-block; width: 20px; height: 20px; flex: 0 0 auto; vertical-align: -3px; }
+.icon-emoji { width: 22px; height: 24px; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; font-size: 20px; line-height: 1.2; text-align: center; }
+.profile-links a, .contact-link { display: inline-flex; align-items: center; gap: 6px; }
+.profile-links a { white-space: nowrap; font-weight: 500; }
+.contact-address { display: flex; align-items: flex-start; gap: 6px; }
+.contact-address .icon { margin-top: 4px; color: var(--blue); }
+#contact .contact-address { margin-top: 4px; }
 .availability {
   margin-top: 25px;
   padding: 16px 20px;
@@ -68,11 +79,13 @@ strong { font-weight: 600; }
 .academic-section > h2 { border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 17px; }
 .anchor-alias { position: absolute; top: 0; }
 .news-list { list-style: none; padding: 0; margin: 0; font-size: 15px; }
-.news-list li { display: grid; grid-template-columns: 85px minmax(0, 1fr); gap: 16px; margin-bottom: 9px; }
+.news-list li { display: grid; grid-template-columns: 22px 85px minmax(0, 1fr); gap: 12px; margin-bottom: 9px; }
+.news-icon { display: flex; padding-top: 1px; }
 .news-list time, .news-date { color: var(--muted); font-size: 14px; padding-top: 1px; }
 .news-list p { margin: 0; }
 .older-news { font-size: 14px; margin-top: 12px; }
-.older-news summary { color: var(--blue); cursor: pointer; width: fit-content; }
+.older-news summary { color: var(--link); cursor: pointer; width: fit-content; text-decoration: underline; text-underline-offset: 3px; font-weight: 500; }
+.older-news summary:hover { color: var(--link-hover); text-decoration-thickness: 2px; }
 .older-news .news-list { margin-top: 14px; }
 .section-note { font-size: 14px; color: var(--muted); margin-bottom: 20px; }
 .publication-list { list-style: none; padding: 0; margin: 0; }
@@ -122,7 +135,7 @@ strong { font-weight: 600; }
 .article-meta { color: var(--muted); font-size: 14px; line-height: 1.65; }
 .article-header .article-meta + .article-meta { margin-top: 6px; }
 .article-actions { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; margin-top: 18px; }
-.button { display: inline-block; color: var(--blue); font-size: 15px; text-decoration: underline; text-underline-offset: 3px; }
+.button { display: inline-block; font-size: 15px; text-decoration: underline; text-underline-offset: 3px; }
 .project-authors { font-size: 15px; line-height: 1.8; }
 .project-note { font-size: 14px; margin-top: 10px; color: var(--muted); }
 .prose { overflow-wrap: break-word; }
@@ -187,7 +200,8 @@ strong { font-weight: 600; }
   .profile { display: flex; flex-direction: column; gap: 20px; }
   .profile-photo { width: 135px; order: -1; margin-top: 0; }
   .profile h1 { font-size: 32px; }
-  .news-list li { grid-template-columns: 68px minmax(0, 1fr); gap: 12px; }
+  .news-list li { grid-template-columns: 20px 68px minmax(0, 1fr); gap: 10px; }
+  .news-icon .icon { width: 20px; }
   .news-list time, .news-date { font-size: 12px; }
   .academic-section { margin-top: 30px; }
   .availability { padding: 14px 16px; }
